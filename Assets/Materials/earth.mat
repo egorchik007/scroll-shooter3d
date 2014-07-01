@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: earth
-  m_Shader: {fileID: 2, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 688d81fa96f47ae4ebd94926777dffa8, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,19 +17,38 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 52a902964f7ce9a4ab76a9c1f800d9e6, type: 3}
+          m_Texture: {fileID: 2800000, guid: dc64aa713321e51469660db7562cd399, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _BumpMap
+          name: _Normals
         second:
-          m_Texture: {fileID: 2800000, guid: b7bf4ee83ae7da54190d887dd4e9d93f, type: 3}
+          m_Texture: {fileID: 2800000, guid: 6e15dbbaa8bd4874684c34a91cbbcfb5, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+      data:
+        first:
+          name: _Lights
+        second:
+          m_Texture: {fileID: 2800000, guid: 72f9e4abb64cdce4cbbe22bab85f66c6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _LightScale
+        second: 1
+      data:
+        first:
+          name: _AtmosFalloff
+        second: 3
     m_Colors:
       data:
         first:
-          name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+          name: _AtmosNear
+        second: {r: .168627501, g: .737254918, b: 1, a: 1}
+      data:
+        first:
+          name: _AtmosFar
+        second: {r: .455780804, g: .518703878, b: .98507458, a: 1}
