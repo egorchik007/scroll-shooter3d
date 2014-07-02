@@ -74,6 +74,91 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &112499083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 112499085}
+  - 114: {fileID: 112499084}
+  m_Layer: 0
+  m_Name: space_ship
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &112499084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112499083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c42755c05be6f4162b8747e506c4896a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocity: {x: 1, y: 0}
+--- !u!4 &112499085
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112499083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.06008959, y: .510981321, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1867459093}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+--- !u!1 &496983664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 496983666}
+  - 114: {fileID: 496983665}
+  m_Layer: 0
+  m_Name: star_spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &496983665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496983664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8453e05856fe9400ea14b58d76a95776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
+  StarAppearingFrequency: .100000001
+  VerticalRange: {x: -9, y: 11}
+  StarFlyingDistance: 80
+  SpaceShipSpeedProvider: {fileID: 112499084}
+--- !u!4 &496983666
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496983664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.9192352, y: 0, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!1 &980960100
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,7 +221,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1189876354
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +316,7 @@ GameObject:
   - 4: {fileID: 1766310686}
   - 114: {fileID: 1766310685}
   m_Layer: 0
-  m_Name: game_controller
+  m_Name: star_spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +335,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
   StarAppearingFrequency: .100000001
-  SpaceShipSpeed: 1
+  VerticalRange: {x: -5, y: 7}
+  StarFlyingDistance: 40
+  SpaceShipSpeedProvider: {fileID: 112499084}
 --- !u!4 &1766310686
 Transform:
   m_ObjectHideFlags: 0
@@ -258,11 +345,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1766310684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 18.6899414, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &1867459089
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +359,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1867459093}
   - 33: {fileID: 1867459092}
-  - 64: {fileID: 1867459091}
   - 23: {fileID: 1867459090}
   m_Layer: 0
   m_Name: space_ship
@@ -301,19 +387,6 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!64 &1867459091
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1867459089}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &1867459092
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -328,8 +401,52 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1867459089}
   m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106709}
-  m_LocalPosition: {x: -7.65148449, y: .556488693, z: 0}
-  m_LocalScale: {x: 2.22973824, y: 3.647156, z: 2.22973824}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.22973824, y: 3.64715624, z: 2.22973824}
+  m_Children: []
+  m_Father: {fileID: 112499085}
+  m_RootOrder: 0
+--- !u!1 &1882010864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1882010866}
+  - 114: {fileID: 1882010865}
+  m_Layer: 0
+  m_Name: star_spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1882010865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882010864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8453e05856fe9400ea14b58d76a95776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
+  StarAppearingFrequency: .100000001
+  VerticalRange: {x: -7, y: 9}
+  StarFlyingDistance: 60
+  SpaceShipSpeedProvider: {fileID: 112499084}
+--- !u!4 &1882010866
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882010864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.0968018, y: 0, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
