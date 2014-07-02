@@ -15,6 +15,8 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 	public Vector2 Velocity = Vector2.right;
 	private Vector2 acceleration = Vector2.zero;
 
+	public float RollScaleFactor = 2f;
+
 	void Start ()
 	{
 	}
@@ -38,7 +40,6 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 
 		Velocity += acceleration;
 		transform.position += new Vector3(0f, Time.deltaTime * Velocity.y, 0f);
-		const float scaleFactor = 30f;
-		transform.localScale = new Vector3(1f, scaleFactor / (scaleFactor + Mathf.Abs (Velocity.y)), 1f);
+		transform.localRotation = Quaternion.Euler(Velocity.y * RollScaleFactor, 0f, 0f);
 	}
 }
