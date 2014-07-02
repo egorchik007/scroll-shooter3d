@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: .100000001
+  StarAppearingFrequency: 7
   VerticalRange: {x: -9, y: 11}
   StarFlyingDistance: 80
   SpaceShipSpeedProvider: {fileID: 112499084}
@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: .100000001
+  StarAppearingFrequency: 3
   VerticalRange: {x: -5, y: 7}
   StarFlyingDistance: 40
   SpaceShipSpeedProvider: {fileID: 112499084}
@@ -1558,7 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: .100000001
+  StarAppearingFrequency: 5
   VerticalRange: {x: -7, y: 9}
   StarFlyingDistance: 60
   SpaceShipSpeedProvider: {fileID: 112499084}

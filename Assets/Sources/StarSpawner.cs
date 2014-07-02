@@ -10,21 +10,26 @@ public class StarSpawner : MonoBehaviour
 
 	public SpaceShip SpaceShipSpeedProvider;
 
-	private float starTimer;
+	private float normalizedStarTimer;
 
 	void Start () 
 	{
-		starTimer = StarAppearingFrequency;
+		normalizedStarTimer = 1.0f;
 	}
 	
 	void Update () 
 	{
-		starTimer -= Time.deltaTime;
+		if (Mathf.Abs(SpaceShipSpeedProvider.Speed) < float.Epsilon)
+		{
+			return;
+		}
 
-		if (starTimer <= 0.0f)
+		normalizedStarTimer -= Time.deltaTime * StarAppearingFrequency * Mathf.Abs(SpaceShipSpeedProvider.Speed);
+
+		if (normalizedStarTimer <= 0.0f)
 		{
 			this.GenerateStar();
-			starTimer = StarAppearingFrequency;
+			normalizedStarTimer = 1.0f;
 		}
 	}
 
