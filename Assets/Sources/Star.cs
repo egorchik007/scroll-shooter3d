@@ -4,18 +4,21 @@ using System.Collections;
 public class Star : MonoBehaviour 
 {	
 	public float StarSpeed = 20f;
+	public float FlyingDistance = 20f;
 
 	[System.NonSerialized]
-	public GameController GameController;
+	public ISpeedProvider SpeedProvider;
 
-	// Update is called once per frame
 	void Update () 
 	{
+		float distance = StarSpeed * Time.deltaTime * SpeedProvider.Speed;
+		FlyingDistance -= distance;
+
 		Vector3 position = transform.position;
-		position.x -= StarSpeed * Time.deltaTime * GameController.SpaceShipSpeed;
+		position.x -= distance;
 		transform.position = position;
 
-		if (transform.position.x < -20.0f)
+		if (FlyingDistance < 0f)
 		{
 			Object.Destroy(gameObject);
 		}
