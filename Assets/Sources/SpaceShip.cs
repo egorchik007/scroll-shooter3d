@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(Gun))]
 public class SpaceShip : MonoBehaviour, ISpeedProvider
 {
 	#region ISpeedProvider implementation
@@ -13,14 +14,19 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 	#endregion
 
 	public Vector2 Velocity = Vector2.right;
+	public Vector2 SpeedXLimits = new Vector2(0f, 10f);
 	private Vector2 acceleration = Vector2.zero;
 
 	public float RollScaleFactor = 2f;
 
-	public ScreenBounding FieldBounds;
+	public ScreenBoundary Boundary;
+	private Gun[] gun;
 
 	void Start ()
 	{
+		gun = GetComponents<Gun>();
+		if (gun.Length < 2)
+			Debug.LogError("This spaceship should have at least 2 guns", this);
 	}
 	
 	void Update ()
@@ -28,11 +34,11 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 		#region Input processing
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			acceleration.y = 5f * Time.deltaTime;
+			acceleration.y = 1f * Time.deltaTime;
 		}
 		else if (Input.GetKey(KeyCode.DownArrow))
 		{
-			acceleration.y = -5f * Time.deltaTime;
+			acceleration.y = -1f * Time.deltaTime;
 		}
 		else
 		{
@@ -41,62 +47,39 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
-			Move(2f * Time.deltaTime, 0f);
+			Velocity.x = Mathf.Clamp(Velocity.x + 1f * Time.deltaTime, SpeedXLimits.x, SpeedXLimits.y);
 		}
 		else if (Input.GetKey(KeyCode.LeftArrow))
 		{
-			Move(-2f * Time.deltaTime, 0f);
+			Velocity.x = Mathf.Clamp(Velocity.x - 1f * Time.deltaTime, SpeedXLimits.x, SpeedXLimits.y);
 		}
 
 		if (Input.GetKey(KeyCode.Space))
 		{
-			Shoot();
+			gun[0].Shoot(this);
+		}
+		if (Input.GetKey(KeyCode.A))
+		{
+			gun[1].Shoot(this);
 		}
 		#endregion
 
 		Velocity += acceleration;
-		Velocity.x = Mathf.Clamp(Velocity.x, 0.1f, 10f);
 		Move(0f, Time.deltaTime * Velocity.y);
 		transform.localRotation = Quaternion.Euler(Velocity.y * RollScaleFactor, 0f, 0f);
 	}
 
 	private void Move(float x, float y)
 	{
-		Vector3 newPosition = transform.position + new Vector3(x, y, 0f);
-		if (FieldBounds.Bounds.Contains(newPosition))
+		Vector3 newPos = transform.position + new Vector3(x, y, 0f);
+		if (Boundary.Boundary.Contains(newPos))
 		{
-			transform.position = newPosition;
+			transform.position = newPos;
 		}
-		else if (0 != y)
+		else
 		{
 			Velocity.y = -Velocity.y;
 		}
 	}
 
-	internal class BulletSpeedProvider : ISpeedProvider
-	{
-		private float speed;
-		ISpeedProvider worldSpeedProvider;
-		public BulletSpeedProvider(float speed, ISpeedProvider worldSpeed)
-		{
-			this.speed = speed;
-			this.worldSpeedProvider = worldSpeed;
-		}
-
-		#region ISpeedProvider implementation
-
-		public float Speed
-		{
-			get { return speed - worldSpeedProvider.Speed; }
-		}
-
-		#endregion
-	}
-
-	public GameObject Bullet;
-	private void Shoot()
-	{
-		GameObject newBullet = (GameObject)Object.Instantiate(Bullet, transform.position, Quaternion.identity);
-		newBullet.GetComponent<Star>().SpeedProvider = new BulletSpeedProvider(10.5f, this);
-	}
 }
