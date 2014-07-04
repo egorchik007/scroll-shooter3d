@@ -7,12 +7,14 @@ public class Missile : Star
 	List<GameObject> enemies;
 	public void Start()
 	{
-		enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
+
 	}
 
 	public override void Update()
 	{
-		base.Update ();
+		base.Update();
+
+		enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
 
 		foreach (GameObject enemy in enemies)
 		{
@@ -21,6 +23,9 @@ public class Missile : Star
 				enemies.Remove(enemy);
 				Object.Destroy(enemy);
 				Object.Destroy(this.gameObject);
+
+				GameController.Instance.Score += 10;
+
 				break;
 			}
 		}
