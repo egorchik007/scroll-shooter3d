@@ -134,12 +134,12 @@ EllipsoidParticleEmitter:
   minSize: .400000006
   maxSize: .699999988
   minEnergy: 1
-  maxEnergy: 2
-  minEmission: 50
-  maxEmission: 50
+  maxEnergy: 1.42999995
+  minEmission: 150
+  maxEmission: 250
   worldVelocity: {x: 0, y: 0, z: 0}
   localVelocity: {x: 0, y: 0, z: 5}
-  rndVelocity: {x: 5, y: 2, z: 5}
+  rndVelocity: {x: 5, y: 5, z: 5}
   emitterVelocityScale: 0
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
