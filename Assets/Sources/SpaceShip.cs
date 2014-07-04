@@ -34,11 +34,11 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 		#region Input processing
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			acceleration.y = 1f * Time.deltaTime;
+			acceleration.y = 20f * Time.deltaTime;
 		}
 		else if (Input.GetKey(KeyCode.DownArrow))
 		{
-			acceleration.y = -1f * Time.deltaTime;
+			acceleration.y = -20f * Time.deltaTime;
 		}
 		else
 		{
