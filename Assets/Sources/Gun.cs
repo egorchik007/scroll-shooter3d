@@ -41,9 +41,9 @@ public class Gun : MonoBehaviour
 			return;
 		}
 
-		GameObject newBulletObj = (GameObject)Instantiate(Bullet, transform.position, Quaternion.identity);
+		GameObject newBulletObj = (GameObject)Instantiate(Bullet, transform.position, Quaternion.Euler(0,0,-90));
 		Star newBullet = newBulletObj.GetComponent<Star>();
-		newBullet.SpeedProvider = new BulletSpeedProvider(worldSpeedProvider, BulletSpeed + 0.5f);
+		newBullet.SpeedProvider = new BulletSpeedProvider(worldSpeedProvider, worldSpeedProvider.Speed + BulletSpeed + 0.5f);
 		cooldown = 1f / ShotsPerSecond;
 	}
 }

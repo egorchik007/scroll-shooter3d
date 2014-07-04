@@ -105,6 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 38.9565849
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &10822402
 Renderer:
   m_ObjectHideFlags: 0
@@ -139,11 +140,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 10822400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.7828999, y: 3.30424285, z: 9}
+  m_LocalPosition: {x: 18.334774, y: 1.26941466, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 147
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 139
 --- !u!1 &23664306
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 25.7744141
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &23664308
 Renderer:
   m_ObjectHideFlags: 0
@@ -209,11 +211,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 23664306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.1289968, y: 8.40856361, z: 3}
+  m_LocalPosition: {x: -8.57712269, y: 6.37373543, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 113
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 105
 --- !u!1 &26096498
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 36.0299606
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &26096500
 Renderer:
   m_ObjectHideFlags: 0
@@ -279,11 +282,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 26096498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.8562756, y: -1.12181926, z: 9}
+  m_LocalPosition: {x: 15.4081497, y: -3.15664744, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 141
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 133
 --- !u!1 &30752331
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 67.2004089
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &30752333
 Renderer:
   m_ObjectHideFlags: 0
@@ -349,11 +353,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 30752331}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.1198082, y: 3.51776886, z: 9}
+  m_LocalPosition: {x: 21.6716824, y: 1.48294067, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 41
 --- !u!1 &32826998
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 57.913063
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &34068140
 Renderer:
   m_ObjectHideFlags: 0
@@ -477,11 +482,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 34068138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.0098572, y: .780615807, z: 3}
+  m_LocalPosition: {x: 23.5617313, y: -1.25421238, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 6
 --- !u!1 &44905714
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 45.2532654
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &44905716
 Renderer:
   m_ObjectHideFlags: 0
@@ -547,11 +553,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 44905714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.34998417, y: 8.11666107, z: 3}
+  m_LocalPosition: {x: 10.9018583, y: 6.08183289, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 45
 --- !u!1 &47683207
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 16.4876595
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &57283305
 Renderer:
   m_ObjectHideFlags: 0
@@ -675,11 +682,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57283303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.82249403, y: 1.51890016, z: 1}
+  m_LocalPosition: {x: -2.27061987, y: -.51592803, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 73
 --- !u!1 &60825574
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 11.6175756
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &60825576
 Renderer:
   m_ObjectHideFlags: 0
@@ -745,11 +753,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60825574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.6925602, y: -1.16200709, z: 1}
+  m_LocalPosition: {x: -7.14068604, y: -3.19683528, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 96
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 88
 --- !u!1 &63232361
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,6 +789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 44.2802773
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &63232363
 Renderer:
   m_ObjectHideFlags: 0
@@ -815,11 +824,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 63232361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.37699461, y: 3.85701323, z: 3}
+  m_LocalPosition: {x: 9.92886925, y: 1.82218504, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 48
 --- !u!1 &69509805
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 35.5133057
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &69509807
 Renderer:
   m_ObjectHideFlags: 0
@@ -885,11 +895,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 69509805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.39005983, y: 6.50497818, z: 3}
+  m_LocalPosition: {x: 1.16181433, y: 4.47014999, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 75
 --- !u!1 &77376490
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 23.8275566
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &77376492
 Renderer:
   m_ObjectHideFlags: 0
@@ -955,11 +966,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 77376490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.8310909, y: .17651844, z: 3}
+  m_LocalPosition: {x: 14.3829651, y: -1.85830975, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 162
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 154
 --- !u!1 &90660507
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 18.9569321
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &90660509
 Renderer:
   m_ObjectHideFlags: 0
@@ -1025,11 +1037,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90660507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.9465218, y: 1.30709362, z: 3}
+  m_LocalPosition: {x: -15.3946476, y: -.727734566, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 133
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 125
 --- !u!1 &103652303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 32.0696297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &103652305
 Renderer:
   m_ObjectHideFlags: 0
@@ -1095,11 +1108,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 103652303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.6664963, y: 2.78752089, z: 1}
+  m_LocalPosition: {x: 38.2183685, y: .752692699, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 248
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 240
 --- !u!1001 &107748736
 Prefab:
   m_ObjectHideFlags: 0
@@ -1150,6 +1163,18 @@ Prefab:
     - target: {fileID: 400042, guid: c0e46ef57be634f7eb33d15c524abc72, type: 2}
       propertyPath: m_LocalScale.z
       value: .600000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c0e46ef57be634f7eb33d15c524abc72, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c0e46ef57be634f7eb33d15c524abc72, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c0e46ef57be634f7eb33d15c524abc72, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0e46ef57be634f7eb33d15c524abc72, type: 2}
@@ -1228,7 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet: {fileID: 100000, guid: f835554b905e44a94958fbf58552b6a5, type: 2}
-  BulletSpeed: 5
+  BulletSpeed: 1
   ShotsPerSecond: 1
 --- !u!1 &131850316
 GameObject:
@@ -1261,6 +1286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 65.2530441
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &131850318
 Renderer:
   m_ObjectHideFlags: 0
@@ -1295,11 +1321,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 131850316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.0793953, y: -5.67184591, z: 9}
+  m_LocalPosition: {x: 44.6312714, y: -7.7066741, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 226
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 218
 --- !u!1 &143875915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,6 +1357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 29.6716309
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &143875917
 Renderer:
   m_ObjectHideFlags: 0
@@ -1365,11 +1392,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 143875915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.6751823, y: -.376559258, z: 3}
+  m_LocalPosition: {x: 20.2270565, y: -2.41138744, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 180
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 172
 --- !u!1 &147202355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,6 +1428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 38.9565849
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &147202357
 Renderer:
   m_ObjectHideFlags: 0
@@ -1435,11 +1463,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 147202355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.12405682, y: 3.30424285, z: 9}
+  m_LocalPosition: {x: -6.57218266, y: 1.26941466, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 134
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 126
 --- !u!1 &148323041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 27.7227306
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &148323043
 Renderer:
   m_ObjectHideFlags: 0
@@ -1505,11 +1534,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148323041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.18067074, y: 7.67393303, z: 3}
+  m_LocalPosition: {x: -6.62879658, y: 5.63910484, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 107
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 99
 --- !u!1 &157817748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,6 +1570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 73.0434036
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &157817750
 Renderer:
   m_ObjectHideFlags: 0
@@ -1575,11 +1605,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 157817748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.9627533, y: 1.23749709, z: 9}
+  m_LocalPosition: {x: 27.5146275, y: -.797331095, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 23
 --- !u!1 &159759039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,6 +1641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 52.5912704
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &159759041
 Renderer:
   m_ObjectHideFlags: 0
@@ -1645,11 +1676,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 159759039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.51065302, y: -1.83208013, z: 9}
+  m_LocalPosition: {x: 7.06252718, y: -3.86690831, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 94
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 86
 --- !u!1 &162565943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,6 +1712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 34.5394135
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &162565945
 Renderer:
   m_ObjectHideFlags: 0
@@ -1715,11 +1747,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162565943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36397004, y: -1.66414165, z: 3}
+  m_LocalPosition: {x: .187904119, y: -3.69896984, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 86
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 78
 --- !u!1 &167367703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,6 +1783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 22.8525543
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &167367705
 Renderer:
   m_ObjectHideFlags: 0
@@ -1785,11 +1818,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 167367703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.8560829, y: -6.48382759, z: 3}
+  m_LocalPosition: {x: 13.4079571, y: -8.51865578, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 159
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 151
 --- !u!1 &180094214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,6 +1854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 64.2800446
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &180094216
 Renderer:
   m_ObjectHideFlags: 0
@@ -1855,11 +1889,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 180094214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.1994476, y: -1.17286706, z: 9}
+  m_LocalPosition: {x: 18.7513218, y: -3.20769525, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 50
 --- !u!1 &182776392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,6 +1925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 14.5393333
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &182776394
 Renderer:
   m_ObjectHideFlags: 0
@@ -1925,11 +1960,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 182776392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.1361256, y: -2.28576899, z: 1}
+  m_LocalPosition: {x: 20.6879997, y: -4.32059717, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 194
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 186
 --- !u!1 &182885402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,6 +1996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 31.0957222
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &182885404
 Renderer:
   m_ObjectHideFlags: 0
@@ -1995,11 +2031,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 182885402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.6925812, y: 3.57301617, z: 1}
+  m_LocalPosition: {x: 37.2444534, y: 1.53818798, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 245
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 237
 --- !u!1 &189797591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,6 +2067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 20.904953
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &189797593
 Renderer:
   m_ObjectHideFlags: 0
@@ -2065,11 +2102,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 189797591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.90847874, y: .16756916, z: 3}
+  m_LocalPosition: {x: 11.4603529, y: -1.86725903, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 153
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 145
 --- !u!1 &193329713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,6 +2138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 61.356411
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &193329715
 Renderer:
   m_ObjectHideFlags: 0
@@ -2135,11 +2173,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 193329713}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.1828041, y: 5.84371138, z: 9}
+  m_LocalPosition: {x: 40.7346802, y: 3.80888319, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 214
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 206
 --- !u!1 &199549397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,6 +2209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 69.1477356
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &199549399
 Renderer:
   m_ObjectHideFlags: 0
@@ -2205,11 +2244,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199549397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.0671158, y: 9.24637604, z: 9}
+  m_LocalPosition: {x: 23.6189899, y: 7.21154785, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 35
 --- !u!1 &207978006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,6 +2280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 18.9569321
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &207978008
 Renderer:
   m_ObjectHideFlags: 0
@@ -2275,11 +2315,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207978006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.96043777, y: 1.30709362, z: 3}
+  m_LocalPosition: {x: 9.51231194, y: -.727734566, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 148
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 140
 --- !u!1 &219754473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,6 +2351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 10.6436605
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &219754475
 Renderer:
   m_ObjectHideFlags: 0
@@ -2345,11 +2386,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 219754473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.6664686, y: 3.11394644, z: 1}
+  m_LocalPosition: {x: -8.11459446, y: 1.07911825, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 99
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 91
 --- !u!1 &223248370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 32.5915909
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &223248372
 Renderer:
   m_ObjectHideFlags: 0
@@ -2415,11 +2457,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 223248370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.31179762, y: -.247477531, z: 3}
+  m_LocalPosition: {x: -1.75992346, y: -2.28230572, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 92
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 84
 --- !u!1 &231361968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,6 +2493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 17.0027733
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &231361970
 Renderer:
   m_ObjectHideFlags: 0
@@ -2485,11 +2528,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 231361968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.9006844, y: -3.22292137, z: 3}
+  m_LocalPosition: {x: -17.3488102, y: -5.25774956, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 137
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 129
 --- !u!1 &231773797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 15.5132322
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &231773799
 Renderer:
   m_ObjectHideFlags: 0
@@ -2555,11 +2599,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 231773797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.79692698, y: 5.65526628, z: 1}
+  m_LocalPosition: {x: -3.24505281, y: 3.6204381, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 84
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 76
 --- !u!1 &244543686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,6 +2635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 31.6176968
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &244543688
 Renderer:
   m_ObjectHideFlags: 0
@@ -2625,11 +2670,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 244543686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.621254, y: -.181681633, z: 3}
+  m_LocalPosition: {x: 22.1731281, y: -2.21650982, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 186
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 178
 --- !u!1 &248332751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,6 +2706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 67.2004089
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &248332753
 Renderer:
   m_ObjectHideFlags: 0
@@ -2695,11 +2741,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 248332751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.0267715, y: 3.51776886, z: 9}
+  m_LocalPosition: {x: 46.5786438, y: 1.48294067, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 232
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 224
 --- !u!1 &266552692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +2777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 40.9046173
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &266552694
 Renderer:
   m_ObjectHideFlags: 0
@@ -2765,11 +2812,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 266552692}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.7309322, y: -8.36173916, z: 9}
+  m_LocalPosition: {x: 20.2828064, y: -10.3965673, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 151
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 143
 --- !u!1 &279446118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,6 +2848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 66.2271423
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &279446120
 Renderer:
   m_ObjectHideFlags: 0
@@ -2835,11 +2883,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 279446118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.0534897, y: -1.41009831, z: 9}
+  m_LocalPosition: {x: 45.6053619, y: -3.4449265, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 229
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 221
 --- !u!1 &281220537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,6 +2919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 52.0696297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &281220539
 Renderer:
   m_ObjectHideFlags: 0
@@ -2905,11 +2954,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 281220537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.0733681, y: 5.04006147, z: 3}
+  m_LocalPosition: {x: 42.6252441, y: 3.00523329, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 249
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 241
 --- !u!1 &298533975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,6 +2990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 17.983036
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &298533977
 Renderer:
   m_ObjectHideFlags: 0
@@ -2975,11 +3025,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 298533975}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.98652363, y: .35988903, z: 3}
+  m_LocalPosition: {x: 8.53839779, y: -1.67493916, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 146
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 138
 --- !u!1 &301529553
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,6 +3061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 68.1748962
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &301529555
 Renderer:
   m_ObjectHideFlags: 0
@@ -3045,11 +3096,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 301529553}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.0942688, y: -2.45547795, z: 9}
+  m_LocalPosition: {x: 22.646143, y: -4.4903059, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 38
 --- !u!1 &304593340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,6 +3190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.913063
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &311105045
 Renderer:
   m_ObjectHideFlags: 0
@@ -3173,11 +3225,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 311105043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.6029968, y: -3.1556673, z: 1}
+  m_LocalPosition: {x: 19.154871, y: -5.19049549, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 7
 --- !u!1 &317916944
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,6 +3261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 1.87847292
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &317916946
 Renderer:
   m_ObjectHideFlags: 0
@@ -3243,11 +3296,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317916944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.47530079, y: 1.76058507, z: 1}
+  m_LocalPosition: {x: 8.02717495, y: -.274243116, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 155
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 147
 --- !u!1 &346969097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,6 +3332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 48.1750832
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &346969099
 Renderer:
   m_ObjectHideFlags: 0
@@ -3313,11 +3367,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 346969097}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.1787834, y: .572325706, z: 3}
+  m_LocalPosition: {x: 38.7306595, y: -1.46250248, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 237
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 229
 --- !u!1 &368816872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,6 +3403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 9.67150021
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &368816874
 Renderer:
   m_ObjectHideFlags: 0
@@ -3383,11 +3438,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 368816872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.6386309, y: 3.22437763, z: 1}
+  m_LocalPosition: {x: -9.08675671, y: 1.18954945, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 102
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 94
 --- !u!1 &385431452
 GameObject:
   m_ObjectHideFlags: 0
@@ -3419,6 +3474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 21.3566551
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &385431454
 Renderer:
   m_ObjectHideFlags: 0
@@ -3453,11 +3509,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 385431452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0465329736, y: 3.88879299, z: 1}
+  m_LocalPosition: {x: 2.59840703, y: 1.85396481, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 58
 --- !u!1 &386192294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,6 +3545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 18.4349442
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &386192296
 Renderer:
   m_ObjectHideFlags: 0
@@ -3523,11 +3580,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 386192294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.87519121, y: -2.92413759, z: 1}
+  m_LocalPosition: {x: -.323317051, y: -4.95896578, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 67
 --- !u!1 &387297665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3559,6 +3616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 38.435009
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &387297667
 Renderer:
   m_ObjectHideFlags: 0
@@ -3593,11 +3651,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 387297665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.53167403, y: 4.06668043, z: 3}
+  m_LocalPosition: {x: 4.08354807, y: 2.03185225, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 66
 --- !u!1 &390017220
 GameObject:
   m_ObjectHideFlags: 0
@@ -3629,6 +3687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.461113
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &390017222
 Renderer:
   m_ObjectHideFlags: 0
@@ -3663,11 +3722,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 390017220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.4647293, y: 6.64883423, z: 3}
+  m_LocalPosition: {x: 28.0166035, y: 4.61400604, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 204
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 196
 --- !u!1 &411338246
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,6 +3758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 17.0027733
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &411338248
 Renderer:
   m_ObjectHideFlags: 0
@@ -3733,11 +3793,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411338246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.00627613, y: -3.22292137, z: 3}
+  m_LocalPosition: {x: 7.55815029, y: -5.25774956, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 144
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 136
 --- !u!1 &412469908
 GameObject:
   m_ObjectHideFlags: 0
@@ -3769,6 +3829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 24.2802582
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &412469910
 Renderer:
   m_ObjectHideFlags: 0
@@ -3803,11 +3864,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 412469908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.8770981, y: -2.96731758, z: 1}
+  m_LocalPosition: {x: 30.4289722, y: -5.00214577, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 224
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 216
 --- !u!1 &424341262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3839,6 +3900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 70.121727
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &424341264
 Renderer:
   m_ObjectHideFlags: 0
@@ -3873,11 +3935,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 424341262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.9480667, y: -3.58586812, z: 9}
+  m_LocalPosition: {x: 49.499939, y: -5.62069607, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 241
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 233
 --- !u!1 &427995240
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +3971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 39.8608704
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &427995242
 Renderer:
   m_ObjectHideFlags: 0
@@ -3943,11 +4006,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 427995240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.4577751, y: 4.20356274, z: 1}
+  m_LocalPosition: {x: 46.0096512, y: 2.16873455, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 272
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 264
 --- !u!1 &428911894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,6 +4042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 44.7999954
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &428911896
 Renderer:
   m_ObjectHideFlags: 0
@@ -4013,11 +4077,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 428911894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.6263428, y: -6.26802349, z: 9}
+  m_LocalPosition: {x: 24.1782169, y: -8.30285168, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 163
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 155
 --- !u!1 &431301541
 GameObject:
   m_ObjectHideFlags: 0
@@ -4049,6 +4113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 2.85238051
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &431301543
 Renderer:
   m_ObjectHideFlags: 0
@@ -4083,11 +4148,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 431301541}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.4577541, y: -4.67432976, z: 1}
+  m_LocalPosition: {x: -15.90588, y: -6.70915794, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 123
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 115
 --- !u!1 &452349326
 GameObject:
   m_ObjectHideFlags: 0
@@ -4177,6 +4242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 26.7481804
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &464770311
 Renderer:
   m_ObjectHideFlags: 0
@@ -4211,11 +4277,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 464770309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.1552315, y: -2.67139912, z: 3}
+  m_LocalPosition: {x: -7.60335732, y: -4.7062273, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 110
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 102
 --- !u!1 &466885724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4247,6 +4313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 76.9391022
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &466885726
 Renderer:
   m_ObjectHideFlags: 0
@@ -4281,11 +4348,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 466885724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.8583813, y: -4.63439131, z: 9}
+  m_LocalPosition: {x: 31.4102554, y: -6.66921949, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 11
 --- !u!1 &469161396
 GameObject:
   m_ObjectHideFlags: 0
@@ -4317,6 +4384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 56.9391594
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &469161398
 Renderer:
   m_ObjectHideFlags: 0
@@ -4351,11 +4419,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469161396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.0359478, y: 1.40077877, z: 3}
+  m_LocalPosition: {x: 22.587822, y: -.634049416, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 9
 --- !u!1 &472062428
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,6 +4513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 13.5654182
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &477838765
 Renderer:
   m_ObjectHideFlags: 0
@@ -4479,11 +4548,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477838763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.16222, y: 5.99899387, z: 1}
+  m_LocalPosition: {x: 19.7140942, y: 3.96416569, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 191
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 183
 --- !u!1 &478799811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4573,6 +4642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 34.5394135
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &486826195
 Renderer:
   m_ObjectHideFlags: 0
@@ -4607,11 +4677,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486826193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.5429878, y: -1.66414165, z: 3}
+  m_LocalPosition: {x: 25.094862, y: -3.69896984, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 195
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 187
 --- !u!1 &496983664
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,7 +4710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: 2
+  StarAppearingFrequency: 3
   VerticalRange: {x: -9, y: 11}
   StarFlyingDistance: 80
   SpaceShipSpeedProvider: {fileID: 112499084}
@@ -4687,6 +4757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 57.4608269
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &508887852
 Renderer:
   m_ObjectHideFlags: 0
@@ -4721,11 +4792,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 508887850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.2871628, y: .361540079, z: 9}
+  m_LocalPosition: {x: 36.839035, y: -1.67328811, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 202
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 194
 --- !u!1 &510597971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4757,6 +4828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 59.4089584
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &510597973
 Renderer:
   m_ObjectHideFlags: 0
@@ -4791,11 +4863,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 510597971}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.2352982, y: 7.30420876, z: 9}
+  m_LocalPosition: {x: 38.7871704, y: 5.26938057, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 208
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 200
 --- !u!1 &515569419
 GameObject:
   m_ObjectHideFlags: 0
@@ -4827,6 +4899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 39.8608704
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &515569421
 Renderer:
   m_ObjectHideFlags: 0
@@ -4861,11 +4934,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 515569419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.5508137, y: 4.20356274, z: 1}
+  m_LocalPosition: {x: 21.1026878, y: 2.16873455, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 1
 --- !u!1 &515881566
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,6 +4970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 28.175066
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &515881568
 Renderer:
   m_ObjectHideFlags: 0
@@ -4931,11 +5005,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 515881566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.86495543, y: 1.83617759, z: 1}
+  m_LocalPosition: {x: 9.41683006, y: -.198650599, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 37
 --- !u!1 &516294653
 GameObject:
   m_ObjectHideFlags: 0
@@ -4967,6 +5041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 26.2273388
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &516294655
 Renderer:
   m_ObjectHideFlags: 0
@@ -5001,11 +5076,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 516294653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.8241768, y: .919530153, z: 1}
+  m_LocalPosition: {x: 32.3760529, y: -1.11529803, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 230
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 222
 --- !u!1 &526269458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5095,6 +5170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 58.8869858
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &531984020
 Renderer:
   m_ObjectHideFlags: 0
@@ -5129,11 +5205,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 531984018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.8907433, y: 8.37030411, z: 3}
+  m_LocalPosition: {x: 49.4426193, y: 6.33547592, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 270
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 262
 --- !u!1 &542861808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5165,6 +5241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 47.7223358
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &542861810
 Renderer:
   m_ObjectHideFlags: 0
@@ -5199,11 +5276,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542861808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.5487194, y: .711934328, z: 9}
+  m_LocalPosition: {x: 27.1005936, y: -1.32289386, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 172
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 164
 --- !u!1 &565664598
 GameObject:
   m_ObjectHideFlags: 0
@@ -5235,6 +5312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 42.3310356
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &565664600
 Renderer:
   m_ObjectHideFlags: 0
@@ -5269,11 +5347,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 565664598}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.3347015, y: .721392632, z: 3}
+  m_LocalPosition: {x: 32.8865738, y: -1.31343555, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 219
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 211
 --- !u!1 &600895521
 GameObject:
   m_ObjectHideFlags: 0
@@ -5305,6 +5383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 77.9130325
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &600895523
 Renderer:
   m_ObjectHideFlags: 0
@@ -5339,11 +5418,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 600895521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.8322906, y: 7.51649904, z: 9}
+  m_LocalPosition: {x: 32.3841629, y: 5.48167086, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 8
 --- !u!1 &603937348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5375,6 +5454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 20.3832703
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &603937350
 Renderer:
   m_ObjectHideFlags: 0
@@ -5409,11 +5489,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603937348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.926854253, y: -4.28620911, z: 1}
+  m_LocalPosition: {x: 1.62501991, y: -6.32103729, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 61
 --- !u!1 &607446292
 GameObject:
   m_ObjectHideFlags: 0
@@ -5445,6 +5525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 40.3833199
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &607446294
 Renderer:
   m_ObjectHideFlags: 0
@@ -5479,11 +5560,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 607446292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.3869705, y: -1.99345684, z: 3}
+  m_LocalPosition: {x: 30.9388447, y: -4.02828503, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 213
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 205
 --- !u!1 &608867506
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,6 +5596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 5.77425241
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &608867508
 Renderer:
   m_ObjectHideFlags: 0
@@ -5549,11 +5631,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 608867506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.5358763, y: 5.85262537, z: 1}
+  m_LocalPosition: {x: -12.9840021, y: 3.81779718, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 114
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 106
 --- !u!1 &613673672
 GameObject:
   m_ObjectHideFlags: 0
@@ -5585,6 +5667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 41.3566971
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &613673674
 Renderer:
   m_ObjectHideFlags: 0
@@ -5619,11 +5702,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 613673672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.45340109, y: -5.67149925, z: 3}
+  m_LocalPosition: {x: 7.00527525, y: -7.70632744, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 57
 --- !u!1 &622661868
 GameObject:
   m_ObjectHideFlags: 0
@@ -5655,6 +5738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: .904782653
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &622661870
 Renderer:
   m_ObjectHideFlags: 0
@@ -5689,11 +5773,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622661868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.4053345, y: 3.24043369, z: 1}
+  m_LocalPosition: {x: -17.8534603, y: 1.20560551, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 129
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 121
 --- !u!1 &634848839
 GameObject:
   m_ObjectHideFlags: 0
@@ -5725,6 +5809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 71.0955887
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &634848841
 Renderer:
   m_ObjectHideFlags: 0
@@ -5759,11 +5844,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 634848839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.0149345, y: -3.95135665, z: 9}
+  m_LocalPosition: {x: 25.5668087, y: -5.98618507, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 29
 --- !u!1 &648835624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,6 +5880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 72.0694962
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &648835626
 Renderer:
   m_ObjectHideFlags: 0
@@ -5829,11 +5915,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 648835624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.9888458, y: 1.43044686, z: 9}
+  m_LocalPosition: {x: 26.54072, y: -.604381323, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 26
 --- !u!1 &667893725
 GameObject:
   m_ObjectHideFlags: 0
@@ -5865,6 +5951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 29.1479092
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &667893727
 Renderer:
   m_ObjectHideFlags: 0
@@ -5899,11 +5986,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 667893725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.83780241, y: 3.28005886, z: 1}
+  m_LocalPosition: {x: 10.389677, y: 1.24523067, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 34
 --- !u!1 &673362341
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,6 +6022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 18.4349442
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &673362343
 Renderer:
   m_ObjectHideFlags: 0
@@ -5969,11 +6057,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 673362341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.031765, y: -2.92413759, z: 1}
+  m_LocalPosition: {x: 24.5836391, y: -4.95896578, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 206
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 198
 --- !u!1 &679015932
 GameObject:
   m_ObjectHideFlags: 0
@@ -6005,6 +6093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.461113
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &679015934
 Renderer:
   m_ObjectHideFlags: 0
@@ -6039,11 +6128,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679015932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .557773113, y: 6.64883423, z: 3}
+  m_LocalPosition: {x: 3.10964727, y: 4.61400604, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 69
 --- !u!1 &679196562
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,6 +6164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 44.2802773
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &679196564
 Renderer:
   m_ObjectHideFlags: 0
@@ -6109,11 +6199,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679196562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.2839508, y: 3.85701323, z: 3}
+  m_LocalPosition: {x: 34.8358231, y: 1.82218504, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 225
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 217
 --- !u!1 &683259518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6145,6 +6235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 31.6176968
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &683259520
 Renderer:
   m_ObjectHideFlags: 0
@@ -6179,11 +6270,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 683259518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.28570223, y: -.181681633, z: 3}
+  m_LocalPosition: {x: -2.73382807, y: -2.21650982, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 95
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 87
 --- !u!1 &702305575
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,6 +6306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 72.0694962
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &702305577
 Renderer:
   m_ObjectHideFlags: 0
@@ -6249,11 +6341,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 702305575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.8958092, y: 1.43044686, z: 9}
+  m_LocalPosition: {x: 51.4476852, y: -.604381323, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 247
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 239
 --- !u!1 &714586831
 GameObject:
   m_ObjectHideFlags: 0
@@ -6285,6 +6377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 42.8521957
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &714586833
 Renderer:
   m_ObjectHideFlags: 0
@@ -6319,11 +6412,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 714586831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.678524, y: 6.60811234, z: 9}
+  m_LocalPosition: {x: 22.2303982, y: 4.57328415, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 157
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 149
 --- !u!1 &716313431
 GameObject:
   m_ObjectHideFlags: 0
@@ -6355,6 +6448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.913063
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &716313433
 Renderer:
   m_ObjectHideFlags: 0
@@ -6389,11 +6483,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 716313431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.5099602, y: -3.1556673, z: 1}
+  m_LocalPosition: {x: 44.0618362, y: -5.19049549, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 266
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 258
 --- !u!1 &717882651
 GameObject:
   m_ObjectHideFlags: 0
@@ -6425,6 +6519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 51.6173706
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &717882653
 Renderer:
   m_ObjectHideFlags: 0
@@ -6459,11 +6554,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 717882651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.4436989, y: 7.7317481, z: 9}
+  m_LocalPosition: {x: 30.995573, y: 5.69691992, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 184
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 176
 --- !u!1 &722864285
 GameObject:
   m_ObjectHideFlags: 0
@@ -6495,6 +6590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 12.5914907
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &722864287
 Renderer:
   m_ObjectHideFlags: 0
@@ -6529,11 +6625,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722864285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.1883087, y: 2.94385719, z: 1}
+  m_LocalPosition: {x: 18.7401829, y: .909029007, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 188
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 180
 --- !u!1 &727420097
 GameObject:
   m_ObjectHideFlags: 0
@@ -6565,6 +6661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 52.0696297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &727420099
 Renderer:
   m_ObjectHideFlags: 0
@@ -6599,11 +6696,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 727420097}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.1664085, y: 5.04006147, z: 3}
+  m_LocalPosition: {x: 17.7182827, y: 3.00523329, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 24
 --- !u!1 &728966382
 GameObject:
   m_ObjectHideFlags: 0
@@ -6635,6 +6732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 8.69585037
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &728966384
 Renderer:
   m_ObjectHideFlags: 0
@@ -6669,11 +6767,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 728966382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.2926807, y: -3.38053942, z: 1}
+  m_LocalPosition: {x: 14.8445549, y: -5.4153676, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 176
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 168
 --- !u!1 &740299459
 GameObject:
   m_ObjectHideFlags: 0
@@ -6705,6 +6803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 21.3566551
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &740299461
 Renderer:
   m_ObjectHideFlags: 0
@@ -6739,11 +6838,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 740299459}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.9534912, y: 3.88879299, z: 1}
+  m_LocalPosition: {x: 27.5053654, y: 1.85396481, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 215
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 207
 --- !u!1 &751675173
 GameObject:
   m_ObjectHideFlags: 0
@@ -6775,6 +6874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 6.74801207
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &751675175
 Renderer:
   m_ObjectHideFlags: 0
@@ -6809,11 +6909,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 751675173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.5621061, y: -3.33302498, z: 1}
+  m_LocalPosition: {x: -12.010232, y: -5.36785316, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 111
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 103
 --- !u!1 &753418777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6845,6 +6945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 54.0174446
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &753418779
 Renderer:
   m_ObjectHideFlags: 0
@@ -6879,11 +6980,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 753418777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.1142311, y: -2.31091785, z: 3}
+  m_LocalPosition: {x: 19.6661053, y: -4.34574604, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 18
 --- !u!1 &770258839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6915,6 +7016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 48.6955757
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &770258841
 Renderer:
   m_ObjectHideFlags: 0
@@ -6949,11 +7051,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 770258839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .615018964, y: -2.01404595, z: 9}
+  m_LocalPosition: {x: 3.16689301, y: -4.0488739, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 106
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 98
 --- !u!1 &779646488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6985,6 +7087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 55.9652557
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &779646490
 Renderer:
   m_ObjectHideFlags: 0
@@ -7019,11 +7122,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 779646488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.9690056, y: 2.84782124, z: 3}
+  m_LocalPosition: {x: 46.5208817, y: .81299305, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 261
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 253
 --- !u!1 &795020204
 GameObject:
   m_ObjectHideFlags: 0
@@ -7055,6 +7158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 15.5132322
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &795020206
 Renderer:
   m_ObjectHideFlags: 0
@@ -7089,11 +7193,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 795020204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.1100292, y: 5.65526628, z: 1}
+  m_LocalPosition: {x: 21.6619034, y: 3.6204381, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 197
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 189
 --- !u!1 &813517468
 GameObject:
   m_ObjectHideFlags: 0
@@ -7125,6 +7229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 19.4091721
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &813517470
 Renderer:
   m_ObjectHideFlags: 0
@@ -7159,11 +7264,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813517468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.90096128, y: 3.77576113, z: 1}
+  m_LocalPosition: {x: .650912881, y: 1.74093294, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 64
 --- !u!1 &829134544
 GameObject:
   m_ObjectHideFlags: 0
@@ -7195,6 +7300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 16.0303345
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &829134546
 Renderer:
   m_ObjectHideFlags: 0
@@ -7229,11 +7335,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 829134544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.8731403, y: -5.7755661, z: 3}
+  m_LocalPosition: {x: -18.3212662, y: -7.81039429, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 139
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 131
 --- !u!1 &832829361
 GameObject:
   m_ObjectHideFlags: 0
@@ -7439,6 +7545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 39.4092293
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &838978297
 Renderer:
   m_ObjectHideFlags: 0
@@ -7473,11 +7580,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 838978295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.4128609, y: 5.36004782, z: 3}
+  m_LocalPosition: {x: 29.964735, y: 3.32521963, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 210
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 202
 --- !u!1 &839414754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7509,6 +7616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 40.9046173
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &839414756
 Renderer:
   m_ObjectHideFlags: 0
@@ -7543,11 +7651,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 839414754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.17602491, y: -8.36173916, z: 9}
+  m_LocalPosition: {x: -4.62415075, y: -10.3965673, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 130
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 122
 --- !u!1 &844453718
 GameObject:
   m_ObjectHideFlags: 0
@@ -7579,6 +7687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 19.4091721
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &844453720
 Renderer:
   m_ObjectHideFlags: 0
@@ -7613,11 +7722,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 844453718}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.0059967, y: 3.77576113, z: 1}
+  m_LocalPosition: {x: 25.5578709, y: 1.74093294, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 209
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 201
 --- !u!1 &854010196
 GameObject:
   m_ObjectHideFlags: 0
@@ -7649,6 +7758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 55.51297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &854010198
 Renderer:
   m_ObjectHideFlags: 0
@@ -7683,11 +7793,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 854010196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.43236876, y: -.573613882, z: 9}
+  m_LocalPosition: {x: 9.98424339, y: -2.60844207, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 85
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 77
 --- !u!1 &862741102
 GameObject:
   m_ObjectHideFlags: 0
@@ -7719,6 +7829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 13.5654182
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &862741104
 Renderer:
   m_ObjectHideFlags: 0
@@ -7753,11 +7864,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 862741102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.74473715, y: 5.99899387, z: 1}
+  m_LocalPosition: {x: -5.19286299, y: 3.96416569, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 90
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 82
 --- !u!1 &873335596
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,6 +7900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 36.0299606
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &873335598
 Renderer:
   m_ObjectHideFlags: 0
@@ -7823,11 +7935,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 873335596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.0506811, y: -1.12181926, z: 9}
+  m_LocalPosition: {x: -9.49880695, y: -3.15664744, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 140
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 132
 --- !u!1 &876451888
 GameObject:
   m_ObjectHideFlags: 0
@@ -7859,6 +7971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 58.4347191
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &876451890
 Renderer:
   m_ObjectHideFlags: 0
@@ -7893,11 +8006,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 876451888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.2610664, y: 2.1683023, z: 9}
+  m_LocalPosition: {x: 37.8129425, y: .133474112, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 205
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 197
 --- !u!1 &882462567
 GameObject:
   m_ObjectHideFlags: 0
@@ -7929,6 +8042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 78.8869705
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &882462569
 Renderer:
   m_ObjectHideFlags: 0
@@ -7963,11 +8077,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 882462567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.8062134, y: 9.4935236, z: 9}
+  m_LocalPosition: {x: 33.3580856, y: 7.45869541, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 5
 --- !u!1 &885347828
 GameObject:
   m_ObjectHideFlags: 0
@@ -8119,6 +8233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 7.72257805
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &889284711
 Renderer:
   m_ObjectHideFlags: 0
@@ -8153,11 +8268,304 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889284709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.3194199, y: 6.78171253, z: 1}
+  m_LocalPosition: {x: 13.871294, y: 4.74688435, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 165
+--- !u!1 &895411774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 895411775}
+  m_Layer: 0
+  m_Name: fucking stars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895411775
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 895411774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.55187416, y: 2.03482819, z: 10.6489744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1679452994}
+  - {fileID: 515569423}
+  - {fileID: 2095407728}
+  - {fileID: 1373189281}
+  - {fileID: 1857725785}
+  - {fileID: 882462571}
+  - {fileID: 34068142}
+  - {fileID: 311105047}
+  - {fileID: 600895525}
+  - {fileID: 469161400}
+  - {fileID: 2055995093}
+  - {fileID: 466885728}
+  - {fileID: 900317233}
+  - {fileID: 1569959509}
+  - {fileID: 1280358321}
+  - {fileID: 2033045588}
+  - {fileID: 1152766092}
+  - {fileID: 1640161008}
+  - {fileID: 753418781}
+  - {fileID: 2075160397}
+  - {fileID: 1981902905}
+  - {fileID: 1563758073}
+  - {fileID: 1730444951}
+  - {fileID: 157817752}
+  - {fileID: 727420101}
+  - {fileID: 1068078009}
+  - {fileID: 648835628}
+  - {fileID: 1793036589}
+  - {fileID: 1351463034}
+  - {fileID: 634848843}
+  - {fileID: 1766533940}
+  - {fileID: 1908077153}
+  - {fileID: 1651392709}
+  - {fileID: 2084749536}
+  - {fileID: 667893729}
+  - {fileID: 199549401}
+  - {fileID: 2138101720}
+  - {fileID: 515881570}
+  - {fileID: 301529557}
+  - {fileID: 1941932045}
+  - {fileID: 1078835350}
+  - {fileID: 30752335}
+  - {fileID: 2091690124}
+  - {fileID: 1940437953}
+  - {fileID: 1244450765}
+  - {fileID: 44905718}
+  - {fileID: 1612922013}
+  - {fileID: 1732478107}
+  - {fileID: 63232365}
+  - {fileID: 1509914733}
+  - {fileID: 180094218}
+  - {fileID: 1276793116}
+  - {fileID: 1540209751}
+  - {fileID: 1150199644}
+  - {fileID: 1979942948}
+  - {fileID: 1031900155}
+  - {fileID: 1163189551}
+  - {fileID: 613673676}
+  - {fileID: 385431456}
+  - {fileID: 1123134113}
+  - {fileID: 1253421828}
+  - {fileID: 603937352}
+  - {fileID: 1440995817}
+  - {fileID: 1142607308}
+  - {fileID: 813517472}
+  - {fileID: 1855727911}
+  - {fileID: 387297669}
+  - {fileID: 386192298}
+  - {fileID: 1080211241}
+  - {fileID: 679015936}
+  - {fileID: 1649769123}
+  - {fileID: 1355073859}
+  - {fileID: 1487199716}
+  - {fileID: 57283307}
+  - {fileID: 1177752467}
+  - {fileID: 69509809}
+  - {fileID: 231773801}
+  - {fileID: 854010200}
+  - {fileID: 162565947}
+  - {fileID: 1747257346}
+  - {fileID: 1940031681}
+  - {fileID: 1168268684}
+  - {fileID: 862741106}
+  - {fileID: 1994709322}
+  - {fileID: 223248374}
+  - {fileID: 1661951197}
+  - {fileID: 159759043}
+  - {fileID: 683259522}
+  - {fileID: 60825578}
+  - {fileID: 1281226199}
+  - {fileID: 1444885051}
+  - {fileID: 219754477}
+  - {fileID: 2056159003}
+  - {fileID: 1043607761}
+  - {fileID: 368816876}
+  - {fileID: 1697221421}
+  - {fileID: 1255029200}
+  - {fileID: 1784261039}
+  - {fileID: 770258843}
+  - {fileID: 148323045}
+  - {fileID: 1233027243}
+  - {fileID: 983528003}
+  - {fileID: 464770313}
+  - {fileID: 751675177}
+  - {fileID: 909484260}
+  - {fileID: 23664310}
+  - {fileID: 608867510}
+  - {fileID: 1041849410}
+  - {fileID: 1614980050}
+  - {fileID: 1135669127}
+  - {fileID: 1854698968}
+  - {fileID: 1371314836}
+  - {fileID: 1099312197}
+  - {fileID: 1847826100}
+  - {fileID: 1151114701}
+  - {fileID: 431301545}
+  - {fileID: 1603421588}
+  - {fileID: 1692779595}
+  - {fileID: 1405051353}
+  - {fileID: 2125835186}
+  - {fileID: 1230531302}
+  - {fileID: 622661872}
+  - {fileID: 839414758}
+  - {fileID: 1237416503}
+  - {fileID: 1903408595}
+  - {fileID: 90660511}
+  - {fileID: 147202359}
+  - {fileID: 1796737161}
+  - {fileID: 2007454888}
+  - {fileID: 231361972}
+  - {fileID: 1389971343}
+  - {fileID: 829134548}
+  - {fileID: 873335600}
+  - {fileID: 26096502}
+  - {fileID: 1235705130}
+  - {fileID: 1965159952}
+  - {fileID: 411338250}
+  - {fileID: 1378701059}
+  - {fileID: 298533979}
+  - {fileID: 10822404}
+  - {fileID: 207978010}
+  - {fileID: 923818258}
+  - {fileID: 1105592832}
+  - {fileID: 266552696}
+  - {fileID: 1359883646}
+  - {fileID: 189797595}
+  - {fileID: 1701369866}
+  - {fileID: 317916948}
+  - {fileID: 1494180259}
+  - {fileID: 714586835}
+  - {fileID: 1255268875}
+  - {fileID: 167367707}
+  - {fileID: 1020899055}
+  - {fileID: 2041022313}
+  - {fileID: 77376494}
+  - {fileID: 428911898}
+  - {fileID: 1726055145}
+  - {fileID: 1789811256}
+  - {fileID: 1458646761}
+  - {fileID: 962987131}
+  - {fileID: 1399182077}
+  - {fileID: 1639038766}
+  - {fileID: 1366838781}
+  - {fileID: 1823619629}
+  - {fileID: 542861812}
+  - {fileID: 889284713}
+  - {fileID: 1919988873}
+  - {fileID: 959972645}
+  - {fileID: 728966386}
+  - {fileID: 1457150618}
+  - {fileID: 1557789269}
+  - {fileID: 1286810477}
+  - {fileID: 143875919}
+  - {fileID: 1799797101}
+  - {fileID: 1513176137}
+  - {fileID: 1618522636}
+  - {fileID: 717882655}
+  - {fileID: 1410903326}
+  - {fileID: 244543690}
+  - {fileID: 1061832136}
+  - {fileID: 722864289}
+  - {fileID: 1915949068}
+  - {fileID: 1871707156}
+  - {fileID: 477838767}
+  - {fileID: 927481678}
+  - {fileID: 1875661040}
+  - {fileID: 182776396}
+  - {fileID: 486826197}
+  - {fileID: 1113234329}
+  - {fileID: 795020208}
+  - {fileID: 1078650351}
+  - {fileID: 1917594338}
+  - {fileID: 1368324114}
+  - {fileID: 1176439906}
+  - {fileID: 508887854}
+  - {fileID: 1368124959}
+  - {fileID: 390017224}
+  - {fileID: 876451892}
+  - {fileID: 673362345}
+  - {fileID: 1400286854}
+  - {fileID: 510597975}
+  - {fileID: 844453722}
+  - {fileID: 838978299}
+  - {fileID: 1760588127}
+  - {fileID: 1188586460}
+  - {fileID: 607446296}
+  - {fileID: 193329717}
+  - {fileID: 740299463}
+  - {fileID: 1103468727}
+  - {fileID: 1089939364}
+  - {fileID: 2085627247}
+  - {fileID: 565664602}
+  - {fileID: 1790524297}
+  - {fileID: 1318449271}
+  - {fileID: 1394675565}
+  - {fileID: 1669531034}
+  - {fileID: 412469912}
+  - {fileID: 679196566}
+  - {fileID: 131850320}
+  - {fileID: 2083814491}
+  - {fileID: 924059139}
+  - {fileID: 279446122}
+  - {fileID: 516294657}
+  - {fileID: 1884835667}
+  - {fileID: 248332755}
+  - {fileID: 1651108427}
+  - {fileID: 1173997850}
+  - {fileID: 1232898667}
+  - {fileID: 2007535009}
+  - {fileID: 346969101}
+  - {fileID: 1773734867}
+  - {fileID: 1767280625}
+  - {fileID: 1195866677}
+  - {fileID: 424341266}
+  - {fileID: 1894346371}
+  - {fileID: 1108453502}
+  - {fileID: 1503474854}
+  - {fileID: 182885406}
+  - {fileID: 1049060008}
+  - {fileID: 702305579}
+  - {fileID: 103652307}
+  - {fileID: 281220541}
+  - {fileID: 1613829682}
+  - {fileID: 1371760106}
+  - {fileID: 1124734766}
+  - {fileID: 1041502647}
+  - {fileID: 1782782136}
+  - {fileID: 928282539}
+  - {fileID: 2004794773}
+  - {fileID: 1257808540}
+  - {fileID: 984867452}
+  - {fileID: 1673637136}
+  - {fileID: 1890986240}
+  - {fileID: 779646492}
+  - {fileID: 1254763386}
+  - {fileID: 1432156947}
+  - {fileID: 1078073802}
+  - {fileID: 2095480372}
+  - {fileID: 716313435}
+  - {fileID: 2142888548}
+  - {fileID: 1762415805}
+  - {fileID: 2104790961}
+  - {fileID: 531984022}
+  - {fileID: 1124631082}
+  - {fileID: 427995244}
+  - {fileID: 1578132687}
   m_Father: {fileID: 0}
-  m_RootOrder: 173
+  m_RootOrder: 8
 --- !u!1 &900317229
 GameObject:
   m_ObjectHideFlags: 0
@@ -8189,6 +8597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 55.9652557
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &900317231
 Renderer:
   m_ObjectHideFlags: 0
@@ -8223,11 +8632,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 900317229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.0620422, y: 2.84782124, z: 3}
+  m_LocalPosition: {x: 21.6139164, y: .81299305, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 12
 --- !u!1 &909484256
 GameObject:
   m_ObjectHideFlags: 0
@@ -8259,6 +8668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 46.7477798
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &909484258
 Renderer:
   m_ObjectHideFlags: 0
@@ -8293,11 +8703,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 909484256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.33279371, y: 10.7445889, z: 9}
+  m_LocalPosition: {x: 1.21908045, y: 8.70976067, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 112
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 104
 --- !u!1 &923818254
 GameObject:
   m_ObjectHideFlags: 0
@@ -8329,6 +8739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 39.9304733
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &923818256
 Renderer:
   m_ObjectHideFlags: 0
@@ -8363,11 +8774,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 923818254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.7568035, y: .412988424, z: 9}
+  m_LocalPosition: {x: 19.3086777, y: -1.62183976, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 149
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 141
 --- !u!1 &924059135
 GameObject:
   m_ObjectHideFlags: 0
@@ -8399,6 +8810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 45.2532654
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &924059137
 Renderer:
   m_ObjectHideFlags: 0
@@ -8433,11 +8845,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 924059135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.2569427, y: 8.11666107, z: 3}
+  m_LocalPosition: {x: 35.808815, y: 6.08183289, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 228
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 220
 --- !u!1 &927481674
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,6 +8881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 33.565506
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &927481676
 Renderer:
   m_ObjectHideFlags: 0
@@ -8503,11 +8916,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 927481674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.5690765, y: 8.6158886, z: 3}
+  m_LocalPosition: {x: 24.1209507, y: 6.58106041, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 192
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 184
 --- !u!1 &928282535
 GameObject:
   m_ObjectHideFlags: 0
@@ -8539,6 +8952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 54.0174446
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &928282537
 Renderer:
   m_ObjectHideFlags: 0
@@ -8573,11 +8987,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 928282535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.0211945, y: -2.31091785, z: 3}
+  m_LocalPosition: {x: 44.5730667, y: -4.34574604, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 255
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 247
 --- !u!1 &959972641
 GameObject:
   m_ObjectHideFlags: 0
@@ -8609,6 +9023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 48.6955757
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &959972643
 Renderer:
   m_ObjectHideFlags: 0
@@ -8643,11 +9058,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 959972641}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.5219765, y: -2.01404595, z: 9}
+  m_LocalPosition: {x: 28.0738506, y: -4.0488739, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 175
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 167
 --- !u!1 &962987127
 GameObject:
   m_ObjectHideFlags: 0
@@ -8679,6 +9094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 5.77425241
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &962987129
 Renderer:
   m_ObjectHideFlags: 0
@@ -8713,11 +9129,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 962987127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.3710804, y: 5.85262537, z: 1}
+  m_LocalPosition: {x: 11.9229546, y: 3.81779718, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 167
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 159
 --- !u!1 &980960100
 GameObject:
   m_ObjectHideFlags: 0
@@ -8812,6 +9228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 47.7223358
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &983528001
 Renderer:
   m_ObjectHideFlags: 0
@@ -8846,11 +9263,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 983527999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.358237207, y: .711934328, z: 9}
+  m_LocalPosition: {x: 2.19363689, y: -1.32289386, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 109
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 101
 --- !u!1 &984867448
 GameObject:
   m_ObjectHideFlags: 0
@@ -8882,6 +9299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 54.9923325
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &984867450
 Renderer:
   m_ObjectHideFlags: 0
@@ -8916,11 +9334,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 984867448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.9960785, y: -1.43057728, z: 3}
+  m_LocalPosition: {x: 45.5479507, y: -3.46540546, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 258
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 250
 --- !u!1 &1020899051
 GameObject:
   m_ObjectHideFlags: 0
@@ -8952,6 +9370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 43.827179
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1020899053
 Renderer:
   m_ObjectHideFlags: 0
@@ -8986,11 +9405,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1020899051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.6535187, y: 10.0929861, z: 9}
+  m_LocalPosition: {x: 23.2053928, y: 8.05815792, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 160
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 152
 --- !u!1 &1031900151
 GameObject:
   m_ObjectHideFlags: 0
@@ -9022,6 +9441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 22.3310013
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1031900153
 Renderer:
   m_ObjectHideFlags: 0
@@ -9056,11 +9476,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1031900151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.02088392, y: -4.2722888, z: 1}
+  m_LocalPosition: {x: 3.5727582, y: -6.30711699, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 55
 --- !u!1 &1041502643
 GameObject:
   m_ObjectHideFlags: 0
@@ -9092,6 +9512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 74.0173187
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1041502645
 Renderer:
   m_ObjectHideFlags: 0
@@ -9126,11 +9547,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1041502643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.8436241, y: 10.8758459, z: 9}
+  m_LocalPosition: {x: 53.3955002, y: 8.84101772, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 253
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 245
 --- !u!1 &1041849406
 GameObject:
   m_ObjectHideFlags: 0
@@ -9162,6 +9583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 45.7740173
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1041849408
 Renderer:
   m_ObjectHideFlags: 0
@@ -9196,11 +9618,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1041849406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.30656266, y: -.980262995, z: 9}
+  m_LocalPosition: {x: .245311499, y: -3.01509118, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 115
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 107
 --- !u!1 &1043607757
 GameObject:
   m_ObjectHideFlags: 0
@@ -9232,6 +9654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 29.6716309
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1043607759
 Renderer:
   m_ObjectHideFlags: 0
@@ -9266,11 +9689,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1043607757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.23177481, y: -.376559258, z: 3}
+  m_LocalPosition: {x: -4.67990065, y: -2.41138744, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 101
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 93
 --- !u!1 &1049060004
 GameObject:
   m_ObjectHideFlags: 0
@@ -9302,6 +9725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 51.095726
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1049060006
 Renderer:
   m_ObjectHideFlags: 0
@@ -9336,11 +9760,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049060004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.0994568, y: -2.13452625, z: 3}
+  m_LocalPosition: {x: 41.651329, y: -4.16935444, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 246
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 238
 --- !u!1 &1061832132
 GameObject:
   m_ObjectHideFlags: 0
@@ -9372,6 +9796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 52.5912704
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1061832134
 Renderer:
   m_ObjectHideFlags: 0
@@ -9406,11 +9831,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1061832132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.4176102, y: -1.83208013, z: 9}
+  m_LocalPosition: {x: 31.9694843, y: -3.86690831, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 187
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 179
 --- !u!1 &1068078005
 GameObject:
   m_ObjectHideFlags: 0
@@ -9442,6 +9867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 32.0696297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1068078007
 Renderer:
   m_ObjectHideFlags: 0
@@ -9476,11 +9902,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1068078005}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.7595367, y: 2.78752089, z: 1}
+  m_LocalPosition: {x: 13.3114109, y: .752692699, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 25
 --- !u!1 &1078073798
 GameObject:
   m_ObjectHideFlags: 0
@@ -9512,6 +9938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 56.9391594
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1078073800
 Renderer:
   m_ObjectHideFlags: 0
@@ -9546,11 +9973,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1078073798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.9429092, y: 1.40077877, z: 3}
+  m_LocalPosition: {x: 47.4947815, y: -.634049416, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 264
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 256
 --- !u!1 &1078650347
 GameObject:
   m_ObjectHideFlags: 0
@@ -9582,6 +10009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 35.5133057
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1078650349
 Renderer:
   m_ObjectHideFlags: 0
@@ -9616,11 +10044,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1078650347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.5168953, y: 6.50497818, z: 3}
+  m_LocalPosition: {x: 26.0687695, y: 4.47014999, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 198
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 190
 --- !u!1 &1078835346
 GameObject:
   m_ObjectHideFlags: 0
@@ -9652,6 +10080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 27.2006111
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1078835348
 Renderer:
   m_ObjectHideFlags: 0
@@ -9686,11 +10115,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1078835346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.89050055, y: 4.74519587, z: 1}
+  m_LocalPosition: {x: 8.44237518, y: 2.71036768, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 40
 --- !u!1 &1080211237
 GameObject:
   m_ObjectHideFlags: 0
@@ -9722,6 +10151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 58.4347191
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1080211239
 Renderer:
   m_ObjectHideFlags: 0
@@ -9756,11 +10186,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080211237}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.3541079, y: 2.1683023, z: 9}
+  m_LocalPosition: {x: 12.905982, y: .133474112, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 68
 --- !u!1 &1089939360
 GameObject:
   m_ObjectHideFlags: 0
@@ -9792,6 +10222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 62.330761
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1089939362
 Renderer:
   m_ObjectHideFlags: 0
@@ -9826,11 +10257,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1089939360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.1571465, y: 9.18908405, z: 9}
+  m_LocalPosition: {x: 41.7090225, y: 7.15425587, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 217
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 209
 --- !u!1 &1099312193
 GameObject:
   m_ObjectHideFlags: 0
@@ -9862,6 +10293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 3.82738733
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1099312195
 Renderer:
   m_ObjectHideFlags: 0
@@ -9896,11 +10328,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1099312193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.4827499, y: 2.75521851, z: 1}
+  m_LocalPosition: {x: -14.9308758, y: .72039032, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 120
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 112
 --- !u!1 &1103362488
 GameObject:
   m_ObjectHideFlags: 0
@@ -9990,6 +10422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 41.3566971
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1103468725
 Renderer:
   m_ObjectHideFlags: 0
@@ -10024,11 +10457,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1103468723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.3603592, y: -5.67149925, z: 3}
+  m_LocalPosition: {x: 31.9122334, y: -7.70632744, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 216
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 208
 --- !u!1 &1105592828
 GameObject:
   m_ObjectHideFlags: 0
@@ -10060,6 +10493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 19.9308434
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1105592830
 Renderer:
   m_ObjectHideFlags: 0
@@ -10094,11 +10528,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1105592828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.93435287, y: -5.01542091, z: 3}
+  m_LocalPosition: {x: 10.486227, y: -7.0502491, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 150
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 142
 --- !u!1 &1108453498
 GameObject:
   m_ObjectHideFlags: 0
@@ -10130,6 +10564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 50.1219063
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1108453500
 Renderer:
   m_ObjectHideFlags: 0
@@ -10164,11 +10599,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1108453498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.1256294, y: -2.97156048, z: 3}
+  m_LocalPosition: {x: 40.6775055, y: -5.00638866, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 243
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 235
 --- !u!1 &1113234325
 GameObject:
   m_ObjectHideFlags: 0
@@ -10200,6 +10635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 55.51297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1113234327
 Renderer:
   m_ObjectHideFlags: 0
@@ -10234,11 +10670,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1113234325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.339325, y: -.573613882, z: 9}
+  m_LocalPosition: {x: 34.8911972, y: -2.60844207, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 196
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 188
 --- !u!1 &1123134109
 GameObject:
   m_ObjectHideFlags: 0
@@ -10270,6 +10706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 61.356411
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1123134111
 Renderer:
   m_ObjectHideFlags: 0
@@ -10304,11 +10741,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1123134109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.2758436, y: 5.84371138, z: 9}
+  m_LocalPosition: {x: 15.8277178, y: 3.80888319, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 59
 --- !u!1 &1124631078
 GameObject:
   m_ObjectHideFlags: 0
@@ -10340,6 +10777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 79.860878
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1124631080
 Renderer:
   m_ObjectHideFlags: 0
@@ -10374,11 +10812,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1124631078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.6870613, y: -.872845888, z: 9}
+  m_LocalPosition: {x: 59.2389374, y: -2.90767407, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 271
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 263
 --- !u!1 &1124734762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10410,6 +10848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 53.0435333
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1124734764
 Renderer:
   m_ObjectHideFlags: 0
@@ -10444,11 +10883,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1124734762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.0472832, y: -6.32907486, z: 3}
+  m_LocalPosition: {x: 43.5991592, y: -8.36390305, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 252
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 244
 --- !u!1 &1125267048
 GameObject:
   m_ObjectHideFlags: 0
@@ -10538,6 +10977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 4.80021048
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1135669125
 Renderer:
   m_ObjectHideFlags: 0
@@ -10572,11 +11012,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135669123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.5099258, y: 3.30796099, z: 1}
+  m_LocalPosition: {x: -13.9580517, y: 1.2731328, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 117
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 109
 --- !u!1 &1142607304
 GameObject:
   m_ObjectHideFlags: 0
@@ -10608,6 +11048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 39.4092293
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1142607306
 Renderer:
   m_ObjectHideFlags: 0
@@ -10642,11 +11083,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1142607304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.50590372, y: 5.36004782, z: 3}
+  m_LocalPosition: {x: 5.05777788, y: 3.32521963, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 63
 --- !u!1 &1150199640
 GameObject:
   m_ObjectHideFlags: 0
@@ -10678,6 +11119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 63.3042297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1150199642
 Renderer:
   m_ObjectHideFlags: 0
@@ -10712,11 +11154,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1150199640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.2236595, y: -7.30727816, z: 9}
+  m_LocalPosition: {x: 17.7755337, y: -9.34210587, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 53
 --- !u!1 &1151114697
 GameObject:
   m_ObjectHideFlags: 0
@@ -10748,6 +11190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 22.8525543
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1151114699
 Renderer:
   m_ObjectHideFlags: 0
@@ -10782,11 +11225,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1151114697}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.0508738, y: -6.48382759, z: 3}
+  m_LocalPosition: {x: -11.4989996, y: -8.51865578, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 122
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 114
 --- !u!1 &1151760721
 GameObject:
   m_ObjectHideFlags: 0
@@ -10847,6 +11290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 34.9923325
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1152766090
 Renderer:
   m_ObjectHideFlags: 0
@@ -10881,11 +11325,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1152766088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.6822529, y: 6.30294609, z: 1}
+  m_LocalPosition: {x: 16.234127, y: 4.2681179, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 16
 --- !u!1 &1155022002
 GameObject:
   m_ObjectHideFlags: 0
@@ -10975,6 +11419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 62.330761
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1163189549
 Renderer:
   m_ObjectHideFlags: 0
@@ -11009,11 +11454,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1163189547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.250186, y: 9.18908405, z: 9}
+  m_LocalPosition: {x: 16.8020592, y: 7.15425587, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 56
 --- !u!1 &1168268680
 GameObject:
   m_ObjectHideFlags: 0
@@ -11045,6 +11490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 33.565506
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1168268682
 Renderer:
   m_ObjectHideFlags: 0
@@ -11079,11 +11525,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1168268680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.33788133, y: 8.6158886, z: 3}
+  m_LocalPosition: {x: -.786007166, y: 6.58106041, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 89
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 81
 --- !u!1 &1173997846
 GameObject:
   m_ObjectHideFlags: 0
@@ -11115,6 +11561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 47.2006302
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1173997848
 Renderer:
   m_ObjectHideFlags: 0
@@ -11149,11 +11596,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173997846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.204319, y: 6.28824997, z: 3}
+  m_LocalPosition: {x: 37.7561951, y: 4.25342178, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 234
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 226
 --- !u!1 &1176439902
 GameObject:
   m_ObjectHideFlags: 0
@@ -11185,6 +11632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 36.4877243
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1176439904
 Renderer:
   m_ObjectHideFlags: 0
@@ -11219,11 +11667,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1176439902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.4913273, y: 8.28030014, z: 3}
+  m_LocalPosition: {x: 27.0432014, y: 6.24547195, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 201
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 193
 --- !u!1 &1177752463
 GameObject:
   m_ObjectHideFlags: 0
@@ -11255,6 +11703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 56.4873924
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1177752465
 Renderer:
   m_ObjectHideFlags: 0
@@ -11289,11 +11738,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177752463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.40680885, y: 9.77339554, z: 9}
+  m_LocalPosition: {x: 10.958683, y: 7.73856735, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 74
 --- !u!1 &1187258131
 GameObject:
   m_ObjectHideFlags: 0
@@ -11383,6 +11832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 20.3832703
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1188586458
 Renderer:
   m_ObjectHideFlags: 0
@@ -11417,11 +11867,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1188586456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.9801025, y: -4.28620911, z: 1}
+  m_LocalPosition: {x: 26.5319767, y: -6.32103729, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 212
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 204
 --- !u!1 &1189876354
 GameObject:
   m_ObjectHideFlags: 0
@@ -11536,6 +11986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 49.1479225
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1195866675
 Renderer:
   m_ObjectHideFlags: 0
@@ -11570,11 +12021,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1195866673}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.1516342, y: 1.34128094, z: 3}
+  m_LocalPosition: {x: 39.7035065, y: -.693547249, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 240
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 232
 --- !u!1 &1230531298
 GameObject:
   m_ObjectHideFlags: 0
@@ -11606,6 +12057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 20.904953
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1230531300
 Renderer:
   m_ObjectHideFlags: 0
@@ -11640,11 +12092,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1230531298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.9984779, y: .16756916, z: 3}
+  m_LocalPosition: {x: -13.4466038, y: -1.86725903, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 128
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 120
 --- !u!1 &1232898663
 GameObject:
   m_ObjectHideFlags: 0
@@ -11676,6 +12128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 68.1748962
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1232898665
 Renderer:
   m_ObjectHideFlags: 0
@@ -11710,11 +12163,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1232898663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.0012321, y: -2.45547795, z: 9}
+  m_LocalPosition: {x: 47.5531082, y: -4.4903059, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 235
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 227
 --- !u!1 &1233027239
 GameObject:
   m_ObjectHideFlags: 0
@@ -11746,6 +12199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 7.72257805
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1233027241
 Renderer:
   m_ObjectHideFlags: 0
@@ -11780,11 +12234,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233027239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.5875378, y: 6.78171253, z: 1}
+  m_LocalPosition: {x: -11.0356636, y: 4.74688435, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 108
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 100
 --- !u!1 &1235705126
 GameObject:
   m_ObjectHideFlags: 0
@@ -11816,6 +12270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 16.0303345
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1235705128
 Renderer:
   m_ObjectHideFlags: 0
@@ -11850,11 +12305,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1235705126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.03381824, y: -5.7755661, z: 3}
+  m_LocalPosition: {x: 6.58569241, y: -7.81039429, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 142
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 134
 --- !u!1 &1237416499
 GameObject:
   m_ObjectHideFlags: 0
@@ -11886,6 +12341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 19.9308434
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1237416501
 Renderer:
   m_ObjectHideFlags: 0
@@ -11920,11 +12376,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1237416499}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.9726067, y: -5.01542091, z: 3}
+  m_LocalPosition: {x: -14.4207325, y: -7.0502491, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 131
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 123
 --- !u!1 &1244450761
 GameObject:
   m_ObjectHideFlags: 0
@@ -11956,6 +12412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 66.2271423
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1244450763
 Renderer:
   m_ObjectHideFlags: 0
@@ -11990,11 +12447,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1244450761}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.1465263, y: -1.41009831, z: 9}
+  m_LocalPosition: {x: 20.6984005, y: -3.4449265, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 44
 --- !u!1 &1253421824
 GameObject:
   m_ObjectHideFlags: 0
@@ -12026,6 +12483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 40.3833199
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1253421826
 Renderer:
   m_ObjectHideFlags: 0
@@ -12060,11 +12518,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1253421824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.48001432, y: -1.99345684, z: 3}
+  m_LocalPosition: {x: 6.03188848, y: -4.02828503, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 60
 --- !u!1 &1254763382
 GameObject:
   m_ObjectHideFlags: 0
@@ -12096,6 +12554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 76.9391022
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1254763384
 Renderer:
   m_ObjectHideFlags: 0
@@ -12130,11 +12589,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1254763382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 53.7653389, y: -4.63439131, z: 9}
+  m_LocalPosition: {x: 56.317215, y: -6.66921949, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 262
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 254
 --- !u!1 &1255029196
 GameObject:
   m_ObjectHideFlags: 0
@@ -12166,6 +12625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 28.6959972
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1255029198
 Renderer:
   m_ObjectHideFlags: 0
@@ -12200,11 +12660,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1255029196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.2074194, y: .355412483, z: 3}
+  m_LocalPosition: {x: -5.65554523, y: -1.6794157, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 104
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 96
 --- !u!1 &1255268871
 GameObject:
   m_ObjectHideFlags: 0
@@ -12236,6 +12696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 2.85238051
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1255268873
 Renderer:
   m_ObjectHideFlags: 0
@@ -12270,11 +12731,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1255268871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.44920349, y: -4.67432976, z: 1}
+  m_LocalPosition: {x: 9.00107765, y: -6.70915794, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 158
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 150
 --- !u!1 &1257808536
 GameObject:
   m_ObjectHideFlags: 0
@@ -12306,6 +12767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 34.9923325
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1257808538
 Renderer:
   m_ObjectHideFlags: 0
@@ -12340,11 +12802,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1257808536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.5892105, y: 6.30294609, z: 1}
+  m_LocalPosition: {x: 41.1410828, y: 4.2681179, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 257
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 249
 --- !u!1 &1273939555
 GameObject:
   m_ObjectHideFlags: 0
@@ -12420,6 +12882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 43.3045006
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1276793114
 Renderer:
   m_ObjectHideFlags: 0
@@ -12454,11 +12917,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1276793112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.40121126, y: -4.35139465, z: 3}
+  m_LocalPosition: {x: 8.95308495, y: -6.38622284, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 51
 --- !u!1 &1280358317
 GameObject:
   m_ObjectHideFlags: 0
@@ -12490,6 +12953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 75.9651642
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1280358319
 Renderer:
   m_ObjectHideFlags: 0
@@ -12524,11 +12988,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280358317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.8844757, y: 10.704711, z: 9}
+  m_LocalPosition: {x: 30.4363499, y: 8.66988277, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 14
 --- !u!1 &1281226195
 GameObject:
   m_ObjectHideFlags: 0
@@ -12560,6 +13024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 51.6173706
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1281226197
 Renderer:
   m_ObjectHideFlags: 0
@@ -12594,11 +13059,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1281226195}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.53674269, y: 7.7317481, z: 9}
+  m_LocalPosition: {x: 6.08861685, y: 5.69691992, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 97
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 89
 --- !u!1 &1286810473
 GameObject:
   m_ObjectHideFlags: 0
@@ -12630,6 +13095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 9.67150021
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1286810475
 Renderer:
   m_ObjectHideFlags: 0
@@ -12664,11 +13130,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1286810473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.2683258, y: 3.22437763, z: 1}
+  m_LocalPosition: {x: 15.8202, y: 1.18954945, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 179
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 171
 --- !u!1 &1318449267
 GameObject:
   m_ObjectHideFlags: 0
@@ -12700,6 +13166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 23.3044815
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1318449269
 Renderer:
   m_ObjectHideFlags: 0
@@ -12734,11 +13201,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1318449267}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.90131, y: 4.55658865, z: 1}
+  m_LocalPosition: {x: 29.4531841, y: 2.52176046, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 221
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 213
 --- !u!1 &1351463030
 GameObject:
   m_ObjectHideFlags: 0
@@ -12770,6 +13237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 31.0957222
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1351463032
 Renderer:
   m_ObjectHideFlags: 0
@@ -12804,11 +13272,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1351463030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.7856245, y: 3.57301617, z: 1}
+  m_LocalPosition: {x: 12.3374987, y: 1.53818798, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 28
 --- !u!1 &1355073855
 GameObject:
   m_ObjectHideFlags: 0
@@ -12840,6 +13308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 57.4608269
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1355073857
 Renderer:
   m_ObjectHideFlags: 0
@@ -12874,11 +13343,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1355073855}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.38020706, y: .361540079, z: 9}
+  m_LocalPosition: {x: 11.9320812, y: -1.67328811, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 71
 --- !u!1 &1359883642
 GameObject:
   m_ObjectHideFlags: 0
@@ -12910,6 +13379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: .904782653
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1359883644
 Renderer:
   m_ObjectHideFlags: 0
@@ -12944,11 +13414,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1359883642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.50162601, y: 3.24043369, z: 1}
+  m_LocalPosition: {x: 7.05350018, y: 1.20560551, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 152
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 144
 --- !u!1 &1366838777
 GameObject:
   m_ObjectHideFlags: 0
@@ -12980,6 +13450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 6.74801207
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1366838779
 Renderer:
   m_ObjectHideFlags: 0
@@ -13014,11 +13485,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1366838777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.3448505, y: -3.33302498, z: 1}
+  m_LocalPosition: {x: 12.8967247, y: -5.36785316, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 170
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 162
 --- !u!1 &1368124955
 GameObject:
   m_ObjectHideFlags: 0
@@ -13050,6 +13521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 17.4610443
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1368124957
 Renderer:
   m_ObjectHideFlags: 0
@@ -13084,11 +13556,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368124955}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.0578613, y: 1.86402965, z: 1}
+  m_LocalPosition: {x: 23.6097355, y: -.17079854, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 203
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 195
 --- !u!1 &1368324110
 GameObject:
   m_ObjectHideFlags: 0
@@ -13120,6 +13592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 16.4876595
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1368324112
 Renderer:
   m_ObjectHideFlags: 0
@@ -13154,11 +13627,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368324110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.0844631, y: 1.51890016, z: 1}
+  m_LocalPosition: {x: 22.6363373, y: -.51592803, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 200
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 192
 --- !u!1 &1371314832
 GameObject:
   m_ObjectHideFlags: 0
@@ -13190,6 +13663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 23.8275566
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1371314834
 Renderer:
   m_ObjectHideFlags: 0
@@ -13224,11 +13698,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371314832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.0758657, y: .17651844, z: 3}
+  m_LocalPosition: {x: -10.5239916, y: -1.85830975, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 119
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 111
 --- !u!1 &1371760102
 GameObject:
   m_ObjectHideFlags: 0
@@ -13260,6 +13734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 33.0435333
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1371760104
 Renderer:
   m_ObjectHideFlags: 0
@@ -13294,11 +13769,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371760102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.6404076, y: -2.98508883, z: 1}
+  m_LocalPosition: {x: 39.1922836, y: -5.01991701, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 251
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 243
 --- !u!1 &1373189277
 GameObject:
   m_ObjectHideFlags: 0
@@ -13330,6 +13805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 58.8869858
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1373189279
 Renderer:
   m_ObjectHideFlags: 0
@@ -13364,11 +13840,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1373189277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.9837799, y: 8.37030411, z: 3}
+  m_LocalPosition: {x: 24.5356541, y: 6.33547592, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 3
 --- !u!1 &1378701055
 GameObject:
   m_ObjectHideFlags: 0
@@ -13400,6 +13876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.982666
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1378701057
 Renderer:
   m_ObjectHideFlags: 0
@@ -13434,11 +13911,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378701055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.8089809, y: 1.77587008, z: 9}
+  m_LocalPosition: {x: 17.3608551, y: -.258958101, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 145
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 137
 --- !u!1 &1389971339
 GameObject:
   m_ObjectHideFlags: 0
@@ -13470,6 +13947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.0024033
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1389971341
 Renderer:
   m_ObjectHideFlags: 0
@@ -13504,11 +13982,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1389971339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.0782261, y: -3.99996543, z: 9}
+  m_LocalPosition: {x: -8.52635193, y: -6.03479385, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 138
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 130
 --- !u!1 &1394675561
 GameObject:
   m_ObjectHideFlags: 0
@@ -13540,6 +14018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 43.3045006
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1394675563
 Renderer:
   m_ObjectHideFlags: 0
@@ -13574,11 +14053,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394675561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.3081665, y: -4.35139465, z: 3}
+  m_LocalPosition: {x: 33.8600388, y: -6.38622284, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 222
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 214
 --- !u!1 &1399182073
 GameObject:
   m_ObjectHideFlags: 0
@@ -13610,6 +14089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 25.7744141
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1399182075
 Renderer:
   m_ObjectHideFlags: 0
@@ -13644,11 +14124,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399182073}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.7779598, y: 8.40856361, z: 3}
+  m_LocalPosition: {x: 16.329834, y: 6.37373543, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 168
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 160
 --- !u!1 &1400286850
 GameObject:
   m_ObjectHideFlags: 0
@@ -13680,6 +14160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 38.435009
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1400286852
 Renderer:
   m_ObjectHideFlags: 0
@@ -13714,11 +14195,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1400286850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.438633, y: 4.06668043, z: 3}
+  m_LocalPosition: {x: 28.9905071, y: 2.03185225, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 207
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 199
 --- !u!1 &1405051349
 GameObject:
   m_ObjectHideFlags: 0
@@ -13750,6 +14231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 1.87847292
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1405051351
 Renderer:
   m_ObjectHideFlags: 0
@@ -13784,11 +14266,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405051349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.4316578, y: 1.76058507, z: 1}
+  m_LocalPosition: {x: -16.8797836, y: -.274243116, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 126
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 118
 --- !u!1 &1410903322
 GameObject:
   m_ObjectHideFlags: 0
@@ -13820,6 +14302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 11.6175756
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1410903324
 Renderer:
   m_ObjectHideFlags: 0
@@ -13854,11 +14337,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1410903322}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.2143974, y: -1.16200709, z: 1}
+  m_LocalPosition: {x: 17.7662716, y: -3.19683528, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 185
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 177
 --- !u!1 &1432156943
 GameObject:
   m_ObjectHideFlags: 0
@@ -13890,6 +14373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 36.9391594
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1432156945
 Renderer:
   m_ObjectHideFlags: 0
@@ -13924,11 +14408,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1432156943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.5360451, y: -1.21632075, z: 1}
+  m_LocalPosition: {x: 43.0879211, y: -3.25114894, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 263
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 255
 --- !u!1 &1440995813
 GameObject:
   m_ObjectHideFlags: 0
@@ -13960,6 +14444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 60.3830605
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1440995815
 Renderer:
   m_ObjectHideFlags: 0
@@ -13994,11 +14479,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1440995813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.302453, y: -1.43141294, z: 9}
+  m_LocalPosition: {x: 14.8543272, y: -3.46624112, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 62
 --- !u!1 &1444885047
 GameObject:
   m_ObjectHideFlags: 0
@@ -14030,6 +14515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 30.6437912
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1444885049
 Renderer:
   m_ObjectHideFlags: 0
@@ -14064,11 +14550,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444885047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.25961065, y: 5.04386282, z: 3}
+  m_LocalPosition: {x: -3.70773649, y: 3.00903463, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 98
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 90
 --- !u!1 &1457150614
 GameObject:
   m_ObjectHideFlags: 0
@@ -14100,6 +14586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 28.6959972
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1457150616
 Renderer:
   m_ObjectHideFlags: 0
@@ -14134,11 +14621,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1457150614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.6995373, y: .355412483, z: 3}
+  m_LocalPosition: {x: 19.2514114, y: -1.6794157, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 177
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 169
 --- !u!1 &1458646757
 GameObject:
   m_ObjectHideFlags: 0
@@ -14170,6 +14657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 45.7740173
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1458646759
 Renderer:
   m_ObjectHideFlags: 0
@@ -14204,11 +14692,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1458646757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.6003952, y: -.980262995, z: 9}
+  m_LocalPosition: {x: 25.1522694, y: -3.01509118, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 166
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 158
 --- !u!1 &1487199712
 GameObject:
   m_ObjectHideFlags: 0
@@ -14240,6 +14728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 36.4877243
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1487199714
 Renderer:
   m_ObjectHideFlags: 0
@@ -14274,11 +14763,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1487199712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.415629297, y: 8.28030014, z: 3}
+  m_LocalPosition: {x: 2.13624477, y: 6.24547195, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 72
 --- !u!1 &1494180255
 GameObject:
   m_ObjectHideFlags: 0
@@ -14310,6 +14799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 21.8786354
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1494180257
 Renderer:
   m_ObjectHideFlags: 0
@@ -14344,11 +14834,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1494180255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.88216782, y: 8.88674355, z: 3}
+  m_LocalPosition: {x: 12.434042, y: 6.85191536, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 156
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 148
 --- !u!1 &1503474850
 GameObject:
   m_ObjectHideFlags: 0
@@ -14380,6 +14870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 71.0955887
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1503474852
 Renderer:
   m_ObjectHideFlags: 0
@@ -14414,11 +14905,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1503474850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.9218979, y: -3.95135665, z: 9}
+  m_LocalPosition: {x: 50.4737701, y: -5.98618507, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 244
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 236
 --- !u!1 &1509914729
 GameObject:
   m_ObjectHideFlags: 0
@@ -14450,6 +14941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 24.2802582
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1509914731
 Renderer:
   m_ObjectHideFlags: 0
@@ -14484,11 +14976,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1509914729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.97014165, y: -2.96731758, z: 1}
+  m_LocalPosition: {x: 5.52201557, y: -5.00214577, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 49
 --- !u!1 &1513176133
 GameObject:
   m_ObjectHideFlags: 0
@@ -14520,6 +15012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 10.6436605
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1513176135
 Renderer:
   m_ObjectHideFlags: 0
@@ -14554,11 +15047,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513176133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.2404881, y: 3.11394644, z: 1}
+  m_LocalPosition: {x: 16.7923622, y: 1.07911825, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 182
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 174
 --- !u!1 &1540209747
 GameObject:
   m_ObjectHideFlags: 0
@@ -14590,6 +15083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 23.3044815
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1540209749
 Renderer:
   m_ObjectHideFlags: 0
@@ -14624,11 +15118,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1540209747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.99435234, y: 4.55658865, z: 1}
+  m_LocalPosition: {x: 4.5462265, y: 2.52176046, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 52
 --- !u!1 &1557789265
 GameObject:
   m_ObjectHideFlags: 0
@@ -14660,6 +15154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 49.6712379
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1557789267
 Renderer:
   m_ObjectHideFlags: 0
@@ -14694,11 +15189,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1557789265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.4976196, y: 6.98344755, z: 9}
+  m_LocalPosition: {x: 29.0494938, y: 4.94861937, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 178
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 170
 --- !u!1 &1563758069
 GameObject:
   m_ObjectHideFlags: 0
@@ -14730,6 +15225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 53.0435333
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1563758071
 Renderer:
   m_ObjectHideFlags: 0
@@ -14764,11 +15260,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1563758069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.1403198, y: -6.32907486, z: 3}
+  m_LocalPosition: {x: 18.692194, y: -8.36390305, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 21
 --- !u!1 &1569959505
 GameObject:
   m_ObjectHideFlags: 0
@@ -14800,6 +15296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 35.9652557
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1569959507
 Renderer:
   m_ObjectHideFlags: 0
@@ -14834,11 +15331,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1569959505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.6551781, y: 3.56663752, z: 1}
+  m_LocalPosition: {x: 17.2070522, y: 1.53180933, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 13
 --- !u!1 &1578132683
 GameObject:
   m_ObjectHideFlags: 0
@@ -14870,6 +15367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 59.8608704
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1578132685
 Renderer:
   m_ObjectHideFlags: 0
@@ -14904,11 +15402,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1578132683}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.8646355, y: 8.06292534, z: 3}
+  m_LocalPosition: {x: 50.4165115, y: 6.02809715, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 273
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 265
 --- !u!1 &1603421584
 GameObject:
   m_ObjectHideFlags: 0
@@ -14940,6 +15438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 42.8521957
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1603421586
 Renderer:
   m_ObjectHideFlags: 0
@@ -14974,11 +15473,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1603421584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.22843313, y: 6.60811234, z: 9}
+  m_LocalPosition: {x: -2.67655897, y: 4.57328415, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 124
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 116
 --- !u!1 &1605228275
 GameObject:
   m_ObjectHideFlags: 0
@@ -15068,6 +15567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 25.2532501
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1612922011
 Renderer:
   m_ObjectHideFlags: 0
@@ -15102,11 +15602,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612922009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.94312716, y: 4.37625122, z: 1}
+  m_LocalPosition: {x: 6.49500132, y: 2.34142303, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 46
 --- !u!1 &1613829678
 GameObject:
   m_ObjectHideFlags: 0
@@ -15138,6 +15638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 73.0434036
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1613829680
 Renderer:
   m_ObjectHideFlags: 0
@@ -15172,11 +15673,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613829678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.8697128, y: 1.23749709, z: 9}
+  m_LocalPosition: {x: 52.4215851, y: -.797331095, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 250
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 242
 --- !u!1 &1614980046
 GameObject:
   m_ObjectHideFlags: 0
@@ -15208,6 +15709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 24.8003693
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1614980048
 Renderer:
   m_ObjectHideFlags: 0
@@ -15242,11 +15744,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1614980046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.1030331, y: -5.30938339, z: 3}
+  m_LocalPosition: {x: -9.55115891, y: -7.34421158, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 116
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 108
 --- !u!1 &1618522632
 GameObject:
   m_ObjectHideFlags: 0
@@ -15278,6 +15780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 30.6437912
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1618522634
 Renderer:
   m_ObjectHideFlags: 0
@@ -15312,11 +15815,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1618522632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.6473465, y: 5.04386282, z: 3}
+  m_LocalPosition: {x: 21.1992207, y: 3.00903463, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 183
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 175
 --- !u!1 &1639038762
 GameObject:
   m_ObjectHideFlags: 0
@@ -15348,6 +15851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 46.7477798
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1639038764
 Renderer:
   m_ObjectHideFlags: 0
@@ -15382,11 +15886,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1639038762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.5741615, y: 10.7445889, z: 9}
+  m_LocalPosition: {x: 26.1260357, y: 8.70976067, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 169
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 161
 --- !u!1 &1640161004
 GameObject:
   m_ObjectHideFlags: 0
@@ -15418,6 +15922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 74.9922104
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1640161006
 Renderer:
   m_ObjectHideFlags: 0
@@ -15452,11 +15957,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1640161004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.9115486, y: -3.08391595, z: 9}
+  m_LocalPosition: {x: 29.4634228, y: -5.1187439, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 17
 --- !u!1 &1649769119
 GameObject:
   m_ObjectHideFlags: 0
@@ -15488,6 +15993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 17.4610443
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1649769121
 Renderer:
   m_ObjectHideFlags: 0
@@ -15522,11 +16028,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1649769119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.84909511, y: 1.86402965, z: 1}
+  m_LocalPosition: {x: -1.29722095, y: -.17079854, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 70
 --- !u!1 &1651108423
 GameObject:
   m_ObjectHideFlags: 0
@@ -15558,6 +16064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 27.2006111
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1651108425
 Renderer:
   m_ObjectHideFlags: 0
@@ -15592,11 +16099,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651108423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.7974586, y: 4.74519587, z: 1}
+  m_LocalPosition: {x: 33.3493347, y: 2.71036768, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 233
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 225
 --- !u!1 &1651392705
 GameObject:
   m_ObjectHideFlags: 0
@@ -15628,6 +16135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 70.121727
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1651392707
 Renderer:
   m_ObjectHideFlags: 0
@@ -15662,11 +16170,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651392705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.0411034, y: -3.58586812, z: 9}
+  m_LocalPosition: {x: 24.5929775, y: -5.62069607, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 32
 --- !u!1 &1661951193
 GameObject:
   m_ObjectHideFlags: 0
@@ -15698,6 +16206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 12.5914907
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1661951195
 Renderer:
   m_ObjectHideFlags: 0
@@ -15732,11 +16241,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661951193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.718647, y: 2.94385719, z: 1}
+  m_LocalPosition: {x: -6.16677284, y: .909029007, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 93
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 85
 --- !u!1 &1669531030
 GameObject:
   m_ObjectHideFlags: 0
@@ -15768,6 +16277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 64.2800446
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1669531032
 Renderer:
   m_ObjectHideFlags: 0
@@ -15802,11 +16312,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1669531030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.106411, y: -1.17286706, z: 9}
+  m_LocalPosition: {x: 43.658287, y: -3.20769525, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 223
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 215
 --- !u!1 &1673637132
 GameObject:
   m_ObjectHideFlags: 0
@@ -15838,6 +16348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 75.9651642
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1673637134
 Renderer:
   m_ObjectHideFlags: 0
@@ -15872,11 +16383,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1673637132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.7914314, y: 10.704711, z: 9}
+  m_LocalPosition: {x: 55.3433075, y: 8.66988277, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 259
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 251
 --- !u!1 &1679452990
 GameObject:
   m_ObjectHideFlags: 0
@@ -15908,6 +16419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 59.8608704
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1679452992
 Renderer:
   m_ObjectHideFlags: 0
@@ -15942,11 +16454,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1679452990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.957674, y: 8.06292534, z: 3}
+  m_LocalPosition: {x: 25.5095482, y: 6.02809715, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 0
 --- !u!1 &1692779591
 GameObject:
   m_ObjectHideFlags: 0
@@ -15978,6 +16490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 21.8786354
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1692779593
 Renderer:
   m_ObjectHideFlags: 0
@@ -16012,11 +16525,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1692779591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.0247879, y: 8.88674355, z: 3}
+  m_LocalPosition: {x: -12.4729137, y: 6.85191536, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 125
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 117
 --- !u!1 &1697221417
 GameObject:
   m_ObjectHideFlags: 0
@@ -16048,6 +16561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 49.6712379
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1697221419
 Renderer:
   m_ObjectHideFlags: 0
@@ -16082,11 +16596,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697221417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.59066236, y: 6.98344755, z: 9}
+  m_LocalPosition: {x: 4.14253664, y: 4.94861937, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 103
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 95
 --- !u!1 &1701369862
 GameObject:
   m_ObjectHideFlags: 0
@@ -16118,6 +16632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 41.8782845
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1701369864
 Renderer:
   m_ObjectHideFlags: 0
@@ -16152,11 +16667,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1701369862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.7046108, y: 10.9967213, z: 9}
+  m_LocalPosition: {x: 21.256485, y: 8.96189308, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 154
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 146
 --- !u!1 &1726055141
 GameObject:
   m_ObjectHideFlags: 0
@@ -16188,6 +16703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 4.80021048
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1726055143
 Renderer:
   m_ObjectHideFlags: 0
@@ -16222,11 +16738,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1726055141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.39703369, y: 3.30796099, z: 1}
+  m_LocalPosition: {x: 10.9489079, y: 1.2731328, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 164
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 156
 --- !u!1 &1730444947
 GameObject:
   m_ObjectHideFlags: 0
@@ -16258,6 +16774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 33.0435333
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1730444949
 Renderer:
   m_ObjectHideFlags: 0
@@ -16292,11 +16809,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730444947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.733448, y: -2.98508883, z: 1}
+  m_LocalPosition: {x: 14.2853222, y: -5.01991701, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 22
 --- !u!1 &1732478103
 GameObject:
   m_ObjectHideFlags: 0
@@ -16328,6 +16845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 65.2530441
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1732478105
 Renderer:
   m_ObjectHideFlags: 0
@@ -16362,11 +16880,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1732478103}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.1724319, y: -5.67184591, z: 9}
+  m_LocalPosition: {x: 19.7243061, y: -7.7066741, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 47
 --- !u!1 &1747257342
 GameObject:
   m_ObjectHideFlags: 0
@@ -16398,6 +16916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 14.5393333
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1747257344
 Renderer:
   m_ObjectHideFlags: 0
@@ -16432,11 +16951,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1747257342}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.77083158, y: -2.28576899, z: 1}
+  m_LocalPosition: {x: -4.21895742, y: -4.32059717, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 87
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 79
 --- !u!1 &1760588123
 GameObject:
   m_ObjectHideFlags: 0
@@ -16468,6 +16987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 60.3830605
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1760588125
 Renderer:
   m_ObjectHideFlags: 0
@@ -16502,11 +17022,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1760588123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.2094116, y: -1.43141294, z: 9}
+  m_LocalPosition: {x: 39.7612839, y: -3.46624112, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 211
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 203
 --- !u!1 &1762415801
 GameObject:
   m_ObjectHideFlags: 0
@@ -16538,6 +17058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 78.8869705
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1762415803
 Renderer:
   m_ObjectHideFlags: 0
@@ -16572,11 +17093,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1762415801}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.7131691, y: 9.4935236, z: 9}
+  m_LocalPosition: {x: 58.2650452, y: 7.45869541, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 268
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 260
 --- !u!1 &1766310684
 GameObject:
   m_ObjectHideFlags: 0
@@ -16605,7 +17126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: 2
+  StarAppearingFrequency: 1
   VerticalRange: {x: -5, y: 7}
   StarFlyingDistance: 40
   SpaceShipSpeedProvider: {fileID: 112499084}
@@ -16652,6 +17173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 50.1219063
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1766533938
 Renderer:
   m_ObjectHideFlags: 0
@@ -16686,11 +17208,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1766533936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.2186699, y: -2.97156048, z: 3}
+  m_LocalPosition: {x: 15.7705441, y: -5.00638866, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 30
 --- !u!1 &1767280621
 GameObject:
   m_ObjectHideFlags: 0
@@ -16722,6 +17244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 29.1479092
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1767280623
 Renderer:
   m_ObjectHideFlags: 0
@@ -16756,11 +17279,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1767280621}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.7447586, y: 3.28005886, z: 1}
+  m_LocalPosition: {x: 35.2966309, y: 1.24523067, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 239
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 231
 --- !u!1 &1773734863
 GameObject:
   m_ObjectHideFlags: 0
@@ -16792,6 +17315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 69.1477356
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1773734865
 Renderer:
   m_ObjectHideFlags: 0
@@ -16826,11 +17350,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1773734863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.9740791, y: 9.24637604, z: 9}
+  m_LocalPosition: {x: 48.5259552, y: 7.21154785, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 238
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 230
 --- !u!1 &1782782132
 GameObject:
   m_ObjectHideFlags: 0
@@ -16862,6 +17386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 34.0174446
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1782782134
 Renderer:
   m_ObjectHideFlags: 0
@@ -16896,11 +17421,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1782782132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.6143265, y: 4.59194374, z: 1}
+  m_LocalPosition: {x: 40.1661987, y: 2.55711555, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 254
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 246
 --- !u!1 &1784261035
 GameObject:
   m_ObjectHideFlags: 0
@@ -16932,6 +17457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 8.69585037
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1784261037
 Renderer:
   m_ObjectHideFlags: 0
@@ -16966,11 +17492,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1784261035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.6142759, y: -3.38053942, z: 1}
+  m_LocalPosition: {x: -10.0624018, y: -5.4153676, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 105
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 97
 --- !u!1 &1789811252
 GameObject:
   m_ObjectHideFlags: 0
@@ -17002,6 +17528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 24.8003693
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1789811254
 Renderer:
   m_ObjectHideFlags: 0
@@ -17036,11 +17563,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1789811252}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.8039246, y: -5.30938339, z: 3}
+  m_LocalPosition: {x: 15.3557987, y: -7.34421158, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 165
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 157
 --- !u!1 &1790524293
 GameObject:
   m_ObjectHideFlags: 0
@@ -17072,6 +17599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 63.3042297
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1790524295
 Renderer:
   m_ObjectHideFlags: 0
@@ -17106,11 +17634,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790524293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.130619, y: -7.30727816, z: 9}
+  m_LocalPosition: {x: 42.6824951, y: -9.34210587, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 220
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 212
 --- !u!1 &1793036585
 GameObject:
   m_ObjectHideFlags: 0
@@ -17142,6 +17670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 51.095726
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1793036587
 Renderer:
   m_ObjectHideFlags: 0
@@ -17176,11 +17705,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1793036585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.1924963, y: -2.13452625, z: 3}
+  m_LocalPosition: {x: 16.7443695, y: -4.16935444, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 27
 --- !u!1 &1796737157
 GameObject:
   m_ObjectHideFlags: 0
@@ -17212,6 +17741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 17.983036
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1796737159
 Renderer:
   m_ObjectHideFlags: 0
@@ -17246,11 +17776,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1796737157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.9204369, y: .35988903, z: 3}
+  m_LocalPosition: {x: -16.3685627, y: -1.67493916, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 135
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 127
 --- !u!1 &1799797097
 GameObject:
   m_ObjectHideFlags: 0
@@ -17282,6 +17812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 50.6434364
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1799797099
 Renderer:
   m_ObjectHideFlags: 0
@@ -17316,11 +17847,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1799797097}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.4697876, y: 7.95176077, z: 9}
+  m_LocalPosition: {x: 30.0216618, y: 5.91693258, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 181
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 173
 --- !u!1 &1801699872
 GameObject:
   m_ObjectHideFlags: 0
@@ -17410,6 +17941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 26.7481804
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1823619627
 Renderer:
   m_ObjectHideFlags: 0
@@ -17444,11 +17976,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1823619625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.7517242, y: -2.67139912, z: 3}
+  m_LocalPosition: {x: 17.3035984, y: -4.7062273, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 171
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 163
 --- !u!1 &1847826096
 GameObject:
   m_ObjectHideFlags: 0
@@ -17480,6 +18012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 43.827179
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1847826098
 Renderer:
   m_ObjectHideFlags: 0
@@ -17514,11 +18047,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1847826096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.253438, y: 10.0929861, z: 9}
+  m_LocalPosition: {x: -1.70156384, y: 8.05815792, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 121
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 113
 --- !u!1 &1854698964
 GameObject:
   m_ObjectHideFlags: 0
@@ -17550,6 +18083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 44.7999954
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1854698966
 Renderer:
   m_ObjectHideFlags: 0
@@ -17584,11 +18118,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1854698964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.28061318, y: -6.26802349, z: 9}
+  m_LocalPosition: {x: -.728739023, y: -8.30285168, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 118
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 110
 --- !u!1 &1855727907
 GameObject:
   m_ObjectHideFlags: 0
@@ -17620,6 +18154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 59.4089584
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1855727909
 Renderer:
   m_ObjectHideFlags: 0
@@ -17654,11 +18189,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1855727907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.3283386, y: 7.30420876, z: 9}
+  m_LocalPosition: {x: 13.8802128, y: 5.26938057, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 73
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 65
 --- !u!1 &1857725781
 GameObject:
   m_ObjectHideFlags: 0
@@ -17690,6 +18225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 38.8869858
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1857725783
 Renderer:
   m_ObjectHideFlags: 0
@@ -17724,11 +18260,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857725781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.5769196, y: 5.27429819, z: 1}
+  m_LocalPosition: {x: 20.1287937, y: 3.23947001, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 4
 --- !u!1 &1861662078
 GameObject:
   m_ObjectHideFlags: 0
@@ -17818,6 +18354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 53.5651627
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1871707154
 Renderer:
   m_ObjectHideFlags: 0
@@ -17852,11 +18389,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1871707152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.3915176, y: -8.67522144, z: 9}
+  m_LocalPosition: {x: 32.9433899, y: -10.7100496, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 190
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 182
 --- !u!1 &1875661036
 GameObject:
   m_ObjectHideFlags: 0
@@ -17888,6 +18425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 54.5390778
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1875661038
 Renderer:
   m_ObjectHideFlags: 0
@@ -17922,11 +18460,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875661036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.3654213, y: -1.81882167, z: 9}
+  m_LocalPosition: {x: 33.9172974, y: -3.85364985, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 193
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 185
 --- !u!1 &1882010864
 GameObject:
   m_ObjectHideFlags: 0
@@ -18002,6 +18540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 46.227356
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1884835665
 Renderer:
   m_ObjectHideFlags: 0
@@ -18036,11 +18575,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1884835663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.2310333, y: 4.26180792, z: 3}
+  m_LocalPosition: {x: 36.7829056, y: 2.22697973, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 231
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 223
 --- !u!1 &1890986236
 GameObject:
   m_ObjectHideFlags: 0
@@ -18072,6 +18611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 35.9652557
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1890986238
 Renderer:
   m_ObjectHideFlags: 0
@@ -18106,11 +18646,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1890986236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.5621376, y: 3.56663752, z: 1}
+  m_LocalPosition: {x: 42.1140137, y: 1.53180933, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 260
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 252
 --- !u!1 &1894346367
 GameObject:
   m_ObjectHideFlags: 0
@@ -18142,6 +18682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 30.1218967
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1894346369
 Renderer:
   m_ObjectHideFlags: 0
@@ -18176,11 +18717,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1894346367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.71875, y: 4.61943245, z: 1}
+  m_LocalPosition: {x: 36.2706223, y: 2.58460426, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 242
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 234
 --- !u!1 &1903408591
 GameObject:
   m_ObjectHideFlags: 0
@@ -18212,6 +18753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 39.9304733
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1903408593
 Renderer:
   m_ObjectHideFlags: 0
@@ -18246,11 +18788,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1903408591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.15015316, y: .412988424, z: 9}
+  m_LocalPosition: {x: -5.598279, y: -1.62183976, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 132
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 124
 --- !u!1 &1908077149
 GameObject:
   m_ObjectHideFlags: 0
@@ -18282,6 +18824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 30.1218967
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1908077151
 Renderer:
   m_ObjectHideFlags: 0
@@ -18316,11 +18859,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1908077149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.81179237, y: 4.61943245, z: 1}
+  m_LocalPosition: {x: 11.3636665, y: 2.58460426, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 31
 --- !u!1 &1910365806
 GameObject:
   m_ObjectHideFlags: 0
@@ -18451,6 +18994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 32.5915909
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1915949066
 Renderer:
   m_ObjectHideFlags: 0
@@ -18485,11 +19029,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1915949064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.5951595, y: -.247477531, z: 3}
+  m_LocalPosition: {x: 23.1470337, y: -2.28230572, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 189
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 181
 --- !u!1 &1916365495
 GameObject:
   m_ObjectHideFlags: 0
@@ -18579,6 +19123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 56.4873924
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1917594336
 Renderer:
   m_ObjectHideFlags: 0
@@ -18613,11 +19158,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917594334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.3137665, y: 9.77339554, z: 9}
+  m_LocalPosition: {x: 35.8656387, y: 7.73856735, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 199
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 191
 --- !u!1 &1919988869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18649,6 +19194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 27.7227306
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1919988871
 Renderer:
   m_ObjectHideFlags: 0
@@ -18683,11 +19229,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1919988869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.7262859, y: 7.67393303, z: 3}
+  m_LocalPosition: {x: 18.2781601, y: 5.63910484, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 174
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 166
 --- !u!1 &1940031677
 GameObject:
   m_ObjectHideFlags: 0
@@ -18719,6 +19265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 54.5390778
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1940031679
 Renderer:
   m_ObjectHideFlags: 0
@@ -18753,11 +19300,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940031677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.45846319, y: -1.81882167, z: 9}
+  m_LocalPosition: {x: 9.01033783, y: -3.85364985, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 80
 --- !u!1 &1940437949
 GameObject:
   m_ObjectHideFlags: 0
@@ -18789,6 +19336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 26.2273388
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1940437951
 Renderer:
   m_ObjectHideFlags: 0
@@ -18823,11 +19371,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940437949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.91722155, y: .919530153, z: 1}
+  m_LocalPosition: {x: 7.46909571, y: -1.11529803, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 43
 --- !u!1 &1941932041
 GameObject:
   m_ObjectHideFlags: 0
@@ -18859,6 +19407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 47.2006302
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1941932043
 Renderer:
   m_ObjectHideFlags: 0
@@ -18893,11 +19442,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1941932041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.2973604, y: 6.28824997, z: 3}
+  m_LocalPosition: {x: 12.8492346, y: 4.25342178, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 39
 --- !u!1 &1965159948
 GameObject:
   m_ObjectHideFlags: 0
@@ -18929,6 +19478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.0024033
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1965159950
 Renderer:
   m_ObjectHideFlags: 0
@@ -18963,11 +19513,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1965159948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.8287315, y: -3.99996543, z: 9}
+  m_LocalPosition: {x: 16.3806057, y: -6.03479385, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 143
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 135
 --- !u!1 &1979942944
 GameObject:
   m_ObjectHideFlags: 0
@@ -18999,6 +19549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 42.3310356
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1979942946
 Renderer:
   m_ObjectHideFlags: 0
@@ -19033,11 +19584,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1979942944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.42774343, y: .721392632, z: 3}
+  m_LocalPosition: {x: 7.9796176, y: -1.31343555, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 54
 --- !u!1 &1981902901
 GameObject:
   m_ObjectHideFlags: 0
@@ -19069,6 +19620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 74.0173187
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1981902903
 Renderer:
   m_ObjectHideFlags: 0
@@ -19103,11 +19655,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981902901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.9366646, y: 10.8758459, z: 9}
+  m_LocalPosition: {x: 28.4885387, y: 8.84101772, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 20
 --- !u!1 &1994709318
 GameObject:
   m_ObjectHideFlags: 0
@@ -19139,6 +19691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 53.5651627
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &1994709320
 Renderer:
   m_ObjectHideFlags: 0
@@ -19173,11 +19726,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1994709318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4845624, y: -8.67522144, z: 9}
+  m_LocalPosition: {x: 8.03643608, y: -10.7100496, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 91
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 83
 --- !u!1 &2004794769
 GameObject:
   m_ObjectHideFlags: 0
@@ -19209,6 +19762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 74.9922104
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2004794771
 Renderer:
   m_ObjectHideFlags: 0
@@ -19243,11 +19797,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2004794769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 51.8185081, y: -3.08391595, z: 9}
+  m_LocalPosition: {x: 54.3703842, y: -5.1187439, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 256
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 248
 --- !u!1 &2007454884
 GameObject:
   m_ObjectHideFlags: 0
@@ -19279,6 +19833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 37.982666
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2007454886
 Renderer:
   m_ObjectHideFlags: 0
@@ -19313,11 +19868,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2007454884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.0979757, y: 1.77587008, z: 9}
+  m_LocalPosition: {x: -7.54610157, y: -.258958101, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 136
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 128
 --- !u!1 &2007535005
 GameObject:
   m_ObjectHideFlags: 0
@@ -19349,6 +19904,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 28.175066
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2007535007
 Renderer:
   m_ObjectHideFlags: 0
@@ -19383,11 +19939,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2007535005}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.7719116, y: 1.83617759, z: 1}
+  m_LocalPosition: {x: 34.3237839, y: -.198650599, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 236
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 228
 --- !u!1 &2033045584
 GameObject:
   m_ObjectHideFlags: 0
@@ -19419,6 +19975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 54.9923325
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2033045586
 Renderer:
   m_ObjectHideFlags: 0
@@ -19453,11 +20010,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2033045584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.0891151, y: -1.43057728, z: 3}
+  m_LocalPosition: {x: 20.6409893, y: -3.46540546, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 15
 --- !u!1 &2038727789
 GameObject:
   m_ObjectHideFlags: 0
@@ -19547,6 +20104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 3.82738733
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2041022311
 Renderer:
   m_ObjectHideFlags: 0
@@ -19581,11 +20139,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041022309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.42420959, y: 2.75521851, z: 1}
+  m_LocalPosition: {x: 9.97608376, y: .72039032, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 161
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 153
 --- !u!1 &2055995089
 GameObject:
   m_ObjectHideFlags: 0
@@ -19617,6 +20175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 36.9391594
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2055995091
 Renderer:
   m_ObjectHideFlags: 0
@@ -19651,11 +20210,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2055995089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.6290865, y: -1.21632075, z: 1}
+  m_LocalPosition: {x: 18.1809616, y: -3.25114894, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 10
 --- !u!1 &2056158999
 GameObject:
   m_ObjectHideFlags: 0
@@ -19687,6 +20246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 50.6434364
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2056159001
 Renderer:
   m_ObjectHideFlags: 0
@@ -19721,11 +20281,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2056158999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.56283116, y: 7.95176077, z: 9}
+  m_LocalPosition: {x: 5.11470509, y: 5.91693258, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 100
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 92
 --- !u!1 &2075160393
 GameObject:
   m_ObjectHideFlags: 0
@@ -19757,6 +20317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 34.0174446
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2075160395
 Renderer:
   m_ObjectHideFlags: 0
@@ -19791,11 +20352,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2075160393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.7073669, y: 4.59194374, z: 1}
+  m_LocalPosition: {x: 15.2592411, y: 2.55711555, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 19
 --- !u!1 &2083814487
 GameObject:
   m_ObjectHideFlags: 0
@@ -19827,6 +20388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 25.2532501
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2083814489
 Renderer:
   m_ObjectHideFlags: 0
@@ -19861,11 +20423,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083814487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.8500824, y: 4.37625122, z: 1}
+  m_LocalPosition: {x: 31.4019566, y: 2.34142303, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 227
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 219
 --- !u!1 &2084749532
 GameObject:
   m_ObjectHideFlags: 0
@@ -19897,6 +20459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 49.1479225
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2084749534
 Renderer:
   m_ObjectHideFlags: 0
@@ -19931,11 +20494,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2084749532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.2446756, y: 1.34128094, z: 3}
+  m_LocalPosition: {x: 14.7965498, y: -.693547249, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 33
 --- !u!1 &2085627243
 GameObject:
   m_ObjectHideFlags: 0
@@ -19967,6 +20530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 22.3310013
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2085627245
 Renderer:
   m_ObjectHideFlags: 0
@@ -20001,11 +20565,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2085627243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.9278412, y: -4.2722888, z: 1}
+  m_LocalPosition: {x: 28.4797153, y: -6.30711699, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 218
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 210
 --- !u!1 &2091690120
 GameObject:
   m_ObjectHideFlags: 0
@@ -20037,6 +20601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 46.227356
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2091690122
 Renderer:
   m_ObjectHideFlags: 0
@@ -20071,11 +20636,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2091690120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.32407761, y: 4.26180792, z: 3}
+  m_LocalPosition: {x: 11.8759518, y: 2.22697973, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 42
 --- !u!1 &2095407724
 GameObject:
   m_ObjectHideFlags: 0
@@ -20107,6 +20672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 79.860878
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2095407726
 Renderer:
   m_ObjectHideFlags: 0
@@ -20141,11 +20707,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095407724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.7801075, y: -.872845888, z: 9}
+  m_LocalPosition: {x: 34.3319817, y: -2.90767407, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 2
 --- !u!1 &2095480368
 GameObject:
   m_ObjectHideFlags: 0
@@ -20177,6 +20743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 77.9130325
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2095480370
 Renderer:
   m_ObjectHideFlags: 0
@@ -20211,11 +20778,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095480368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.7392464, y: 7.51649904, z: 9}
+  m_LocalPosition: {x: 57.2911224, y: 5.48167086, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 265
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 257
 --- !u!1 &2104790957
 GameObject:
   m_ObjectHideFlags: 0
@@ -20247,6 +20814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 38.8869858
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2104790959
 Renderer:
   m_ObjectHideFlags: 0
@@ -20281,11 +20849,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2104790957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.4838829, y: 5.27429819, z: 1}
+  m_LocalPosition: {x: 45.035759, y: 3.23947001, z: -9.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 269
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 261
 --- !u!1 &2125835182
 GameObject:
   m_ObjectHideFlags: 0
@@ -20317,6 +20885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 41.8782845
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2125835184
 Renderer:
   m_ObjectHideFlags: 0
@@ -20351,11 +20920,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2125835182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.20234537, y: 10.9967213, z: 9}
+  m_LocalPosition: {x: -3.65047121, y: 8.96189308, z: -1.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 127
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 119
 --- !u!1 &2138101716
 GameObject:
   m_ObjectHideFlags: 0
@@ -20387,6 +20956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 48.1750832
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2138101718
 Renderer:
   m_ObjectHideFlags: 0
@@ -20421,11 +20991,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2138101716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.2718248, y: .572325706, z: 3}
+  m_LocalPosition: {x: 13.823699, y: -1.46250248, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 36
 --- !u!1 &2142888544
 GameObject:
   m_ObjectHideFlags: 0
@@ -20457,6 +21027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: 1.87
   FlyingDistance: 57.913063
+  DefaultSpeedProvider: {fileID: 112499084}
 --- !u!23 &2142888546
 Renderer:
   m_ObjectHideFlags: 0
@@ -20491,8 +21062,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2142888544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.9168205, y: .780615807, z: 3}
+  m_LocalPosition: {x: 48.4686966, y: -1.25421238, z: -7.64897442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 267
+  m_Father: {fileID: 895411775}
+  m_RootOrder: 259

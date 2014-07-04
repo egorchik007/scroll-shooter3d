@@ -10,12 +10,15 @@ public class Star : MonoBehaviour
 	[System.NonSerialized]
 	public ISpeedProvider SpeedProvider;
 
+	public SpaceShip DefaultSpeedProvider;
+
 	public virtual void Update() 
 	{
+
         if (SpeedProvider != null)
-            speed = SpeedProvider.Speed;
-        else
-            speed = 2f;
+						speed = SpeedProvider.Speed;
+				else
+						speed = DefaultSpeedProvider.Speed;
 		float distance = StarSpeed * Time.deltaTime * speed;
 		FlyingDistance -= Mathf.Abs(distance);
 
