@@ -10,8 +10,9 @@ public class Missile : Star
 		enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
 	}
 
-	public void Update()
+	public override void Update()
 	{
+		base.Update ();
 
 		foreach (GameObject enemy in enemies)
 		{
