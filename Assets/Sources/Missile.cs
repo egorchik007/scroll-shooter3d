@@ -18,7 +18,7 @@ public class Missile : Star
 
 		foreach (GameObject enemy in enemies)
 		{
-			if (Vector3.SqrMagnitude(transform.position - enemy.transform.position) < 1.5f)
+			if (Vector3.SqrMagnitude(transform.position - enemy.transform.position) < 0.65f)
 			{
 				enemies.Remove(enemy);
 				Object.Destroy(enemy);

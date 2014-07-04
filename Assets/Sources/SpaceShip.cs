@@ -14,7 +14,7 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 	#endregion
 
 	public Vector2 Velocity = Vector2.right;
-	public Vector2 SpeedXLimits = new Vector2(0f, 10f);
+	public Vector2 SpeedXLimits = new Vector2(0f, 5f);
 	private Vector2 acceleration = Vector2.zero;
 
 	public float RollScaleFactor = 2f;
