@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarSpeed: -10
   FlyingDistance: 20
+  explosion: {fileID: 400000, guid: d180df717997cc9428c39ebb6b83c8ee, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

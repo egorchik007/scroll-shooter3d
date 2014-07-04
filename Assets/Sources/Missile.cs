@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class Missile : Star
 {
 	List<GameObject> enemies;
+	public Transform explosion;
 	public void Start()
 	{
 
@@ -23,6 +24,8 @@ public class Missile : Star
 				enemies.Remove(enemy);
 				Object.Destroy(enemy);
 				Object.Destroy(this.gameObject);
+
+				   Instantiate(explosion, enemy.transform.position, Quaternion.identity);
 
 				GameController.Instance.Score += 10;
 
