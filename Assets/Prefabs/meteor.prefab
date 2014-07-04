@@ -85,6 +85,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotationSpeed: {x: 0, y: 80, z: 0}
+  randomYRotation: 1
+  localrspd: {x: 0, y: 0, z: 0}
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -78,7 +78,7 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 		}
 		else
 		{
-			Velocity.y = -Velocity.normalized.y*10;
+			Velocity.y = Velocity.y/1.2f;
 		}
 	}
 
