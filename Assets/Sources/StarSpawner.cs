@@ -19,11 +19,6 @@ public class StarSpawner : MonoBehaviour
 	
 	void Update () 
 	{
-		if (Mathf.Abs(SpaceShipSpeedProvider.Speed) < float.Epsilon)
-		{
-			return;
-		}
-
 		normalizedStarTimer -= Time.deltaTime * StarAppearingFrequency * Mathf.Abs(SpaceShipSpeedProvider.Speed);
 
 		if (normalizedStarTimer <= 0.0f)
