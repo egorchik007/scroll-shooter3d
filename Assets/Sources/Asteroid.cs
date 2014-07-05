@@ -6,6 +6,7 @@ public class Asteroid : MonoBehaviour
 	public Transform Target;
 	public float Speed = 5.0f;
 	public SpaceShip Ship;
+	public float CollisionRadius = 0.65f;
 
 	// Update is called once per frame
 	void Update () 
