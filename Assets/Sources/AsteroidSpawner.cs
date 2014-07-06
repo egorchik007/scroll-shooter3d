@@ -9,6 +9,7 @@ public class AsteroidSpawner : MonoBehaviour
 	public float FlyingDistance = 10f;
 	
 	public SpaceShip SpaceShip;
+	public ScreenBoundary Boundary;
 	
 	private float normalizedStarTimer;
 	
@@ -34,6 +35,7 @@ public class AsteroidSpawner : MonoBehaviour
 		Asteroid asteroid = newAsteroid.GetComponent<Asteroid>();
 		asteroid.Target = SpaceShip.transform;
 		asteroid.Ship = SpaceShip;
+		asteroid.Boundary = Boundary;
 
 		float randomY = Random.Range(VerticalRange.x, VerticalRange.y);
 		

@@ -2,31 +2,27 @@
 using System.Collections;
 using System.Collections.Generic;
 
+[RequireComponent(typeof(Collider))]
 public class Missile : Star
 {
-	List<GameObject> enemies;
+	private float radius = 0f;
+
 	public void Start()
 	{
-
+		radius = collider.bounds.size.x;
 	}
 
 	public override void Update()
 	{
 		base.Update();
 
-		enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
-
-		foreach (GameObject enemy in enemies)
+		foreach (var collision in Physics.OverlapSphere(transform.position, radius))
 		{
-			if (Vector3.SqrMagnitude(transform.position - enemy.transform.position) < 1.5f)
+			if (collision.CompareTag("Enemy"))
 			{
-				enemies.Remove(enemy);
-				Object.Destroy(enemy);
 				Object.Destroy(this.gameObject);
-
+				Object.Destroy(collision.transform.gameObject);
 				GameController.Instance.Score += 10;
-
-				break;
 			}
 		}
 	}

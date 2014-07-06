@@ -65,10 +65,13 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 			gun[1].Shoot(this);
 		}
 		#endregion
+	}
 
+	void FixedUpdate()
+	{
 		Velocity += acceleration;
 		Velocity.x = Mathf.Clamp(Velocity.x, 0.1f, 10f);
-		Move(0f, Time.deltaTime * Velocity.y);
+		Move(0f, Time.fixedDeltaTime * Velocity.y);
 		transform.localRotation = Quaternion.Euler(Velocity.y * RollScaleFactor, 0f, 0f);
 	}
 
