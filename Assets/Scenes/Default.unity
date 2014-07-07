@@ -593,11 +593,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8453e05856fe9400ea14b58d76a95776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: 10
+  ObjectPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
+  AppearingFrequency: 1
   VerticalRange: {x: -9, y: 11}
-  StarFlyingDistance: 80
-  SpaceShipSpeedProvider: {fileID: 112499084}
+  FlyingDistance: 10
+  SpaceShip: {fileID: 112499084}
 --- !u!4 &496983666
 Transform:
   m_ObjectHideFlags: 0
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f5a30ebc382484eb5ec8be01fd8590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AsteroidPrefab: {fileID: 100000, guid: bd5d305f8ac33421db3fe82ce1ea4c9b, type: 2}
+  ObjectPrefab: {fileID: 100000, guid: bd5d305f8ac33421db3fe82ce1ea4c9b, type: 2}
   AppearingFrequency: 1
   VerticalRange: {x: -5, y: 7}
   FlyingDistance: 10
@@ -1499,11 +1499,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8453e05856fe9400ea14b58d76a95776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: 10
+  ObjectPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
+  AppearingFrequency: 1
   VerticalRange: {x: -5, y: 7}
-  StarFlyingDistance: 40
-  SpaceShipSpeedProvider: {fileID: 112499084}
+  FlyingDistance: 10
+  SpaceShip: {fileID: 112499084}
 --- !u!4 &1766310686
 Transform:
   m_ObjectHideFlags: 0
@@ -1659,11 +1659,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8453e05856fe9400ea14b58d76a95776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StarPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
-  StarAppearingFrequency: 10
+  ObjectPrefab: {fileID: 100000, guid: e78ba2dece51941019bf0a2162d8dd73, type: 2}
+  AppearingFrequency: 1
   VerticalRange: {x: -7, y: 9}
-  StarFlyingDistance: 60
-  SpaceShipSpeedProvider: {fileID: 112499084}
+  FlyingDistance: 10
+  SpaceShip: {fileID: 112499084}
 --- !u!4 &1882010866
 Transform:
   m_ObjectHideFlags: 0

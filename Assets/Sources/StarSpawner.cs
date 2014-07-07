@@ -1,42 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StarSpawner : MonoBehaviour 
+public class StarSpawner : ObjectSpawner 
 {
-	public GameObject StarPrefab;
-	public float StarAppearingFrequency = 1.0f;
-	public Vector2 VerticalRange = new Vector2(-5, 7);
-	public float StarFlyingDistance = 10f;
-
-	public SpaceShip SpaceShipSpeedProvider;
-
-	private float normalizedStarTimer;
-
-	void Start () 
+	public override GameObject GenerateObject ()
 	{
-		normalizedStarTimer = 1.0f;
-	}
-	
-	void Update () 
-	{
-		normalizedStarTimer -= Time.deltaTime * StarAppearingFrequency * Mathf.Abs(SpaceShipSpeedProvider.Speed);
-
-		if (normalizedStarTimer <= 0.0f)
-		{
-			this.GenerateStar();
-			normalizedStarTimer = 1.0f;
-		}
-	}
-
-	public void GenerateStar()
-	{
-		GameObject newStarObj = (GameObject)Object.Instantiate(StarPrefab);
+		GameObject newStarObj = base.GenerateObject ();
 		Star newStar = newStarObj.GetComponent<Star>();
-		newStar.SpeedProvider = SpaceShipSpeedProvider;
-		newStar.FlyingDistance = StarFlyingDistance;
+		newStar.SpeedProvider = SpaceShip;
+		newStar.FlyingDistance = FlyingDistance;
 
-		float randomY = Random.Range(VerticalRange.x, VerticalRange.y);
-
-		newStarObj.transform.position = new Vector3(transform.position.x, randomY, transform.position.z);
+		return newStarObj;
 	}
 }
