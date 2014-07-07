@@ -9,19 +9,19 @@ public class Missile : Star
 
 	public void Start()
 	{
-		radius = collider.bounds.size.x;
+		radius = collider.bounds.size.x / 2f;
 	}
 
 	public override void Update()
 	{
 		base.Update();
 
-		foreach (var collision in Physics.OverlapSphere(transform.position, radius))
+		foreach (var hit in Physics.SphereCastAll(transform.position, radius, Vector3.right, distance))
 		{
-			if (collision.CompareTag("Enemy"))
+			if (hit.transform.CompareTag("Enemy"))
 			{
 				Object.Destroy(this.gameObject);
-				Object.Destroy(collision.transform.gameObject);
+				Object.Destroy(hit.transform.gameObject);
 				GameController.Instance.Score += 10;
 			}
 		}

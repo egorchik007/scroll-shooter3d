@@ -13,7 +13,7 @@ public class Asteroid : MonoBehaviour
 
 	void Start()
 	{
-		radius = collider.bounds.size.x;
+		radius = collider.bounds.size.x / 2f;
 	}
 
 	void Update()

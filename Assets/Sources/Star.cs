@@ -8,10 +8,11 @@ public class Star : MonoBehaviour
 
 	[System.NonSerialized]
 	public ISpeedProvider SpeedProvider;
+	protected float distance = 0f;
 
 	public virtual void Update() 
 	{
-		float distance = StarSpeed * Time.deltaTime * SpeedProvider.Speed;
+		distance = StarSpeed * Time.deltaTime * SpeedProvider.Speed;
 		FlyingDistance -= Mathf.Abs(distance);
 
 		Vector3 position = transform.position;
