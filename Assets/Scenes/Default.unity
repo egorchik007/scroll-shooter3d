@@ -1775,6 +1775,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!1 &1914317185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1914317187}
+  - 114: {fileID: 1914317186}
+  m_Layer: 0
+  m_Name: kamikaze_spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -771928, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1914317186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914317185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f5a30ebc382484eb5ec8be01fd8590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectPrefab: {fileID: 100000, guid: c362e4594e55b4b7ca733538910682f9, type: 2}
+  AppearingFrequency: .300000012
+  VerticalRange: {x: -5, y: 7}
+  FlyingDistance: 10
+  SpaceShip: {fileID: 112499084}
+  Boundary: {fileID: 1189876355}
+--- !u!4 &1914317187
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914317185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.0167189, y: .989604056, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &1916365495
 GameObject:
   m_ObjectHideFlags: 0

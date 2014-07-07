@@ -9,14 +9,16 @@ public class Asteroid : MonoBehaviour
 	public SpaceShip Ship;
 	public ScreenBoundary Boundary;
 
-	private float radius = 0f;
+	protected float radius = 0f;
+	protected Vector3 direction = Vector3.left;
 
-	void Start()
+	public void Start()
 	{
 		radius = collider.bounds.size.x / 2f;
+		direction = (Target.position - transform.position).normalized;
 	}
 
-	void Update()
+	public void Update()
 	{
 		if (transform.position.x < Boundary.Boundary.min.x)
 		{
@@ -24,9 +26,8 @@ public class Asteroid : MonoBehaviour
 		}
 	}
 
-	void FixedUpdate()
+	public virtual void FixedUpdate()
 	{
-		Vector3 direction = (Target.position - transform.position).normalized;
 		Vector3 velocity = new Vector3(-Speed * Time.fixedDeltaTime * Ship.Speed, direction.y * Speed * Time.fixedDeltaTime);
 		
 		transform.position += velocity;
