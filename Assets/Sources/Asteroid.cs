@@ -12,6 +12,11 @@ public class Asteroid : MonoBehaviour
 	protected float radius = 0f;
 	protected Vector3 direction = Vector3.left;
 
+	public Vector3 Direction
+	{
+		get { return direction; }
+	}
+
 	public void Start()
 	{
 		radius = collider.bounds.size.x / 2f;
@@ -36,7 +41,7 @@ public class Asteroid : MonoBehaviour
 		{
 			if (collision.CompareTag("Player"))
 			{
-				Application.LoadLevel(Application.loadedLevel);
+				Application.LoadLevel("MainMenu");
 			}
 		}
 	}

@@ -27,4 +27,9 @@ public class GameController : MonoBehaviour
 	{
 		GUI.Label(new Rect(0, 0, Screen.width, Screen.height), "Score: " + Score, ScoreLabelStyle);
 	}
+
+	public void OnDestroy()
+	{
+		PlayerPrefs.SetInt("LastScore", Score);
+	}
 }
