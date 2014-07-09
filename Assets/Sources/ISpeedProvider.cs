@@ -1,4 +1,4 @@
-﻿public interface ISpeedProvider 
+﻿public interface ISpeedProvider
 {
-	float Speed { get; }
+    float Speed { get; }
 }

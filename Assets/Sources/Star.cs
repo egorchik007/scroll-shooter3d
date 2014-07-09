@@ -1,34 +1,34 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Star : MonoBehaviour 
-{	
-	public float StarSpeed = 20f;
-	public float FlyingDistance = 20f;
+public class Star : MonoBehaviour
+{
+    public float StarSpeed = 20f;
+    public float FlyingDistance = 20f;
     private float speed;
 
-	[System.NonSerialized]
-	public ISpeedProvider SpeedProvider;
+    [System.NonSerialized]
+    public ISpeedProvider SpeedProvider;
 
-	public SpaceShip DefaultSpeedProvider;
+    public SpaceShip DefaultSpeedProvider;
 
-	public virtual void Update() 
-	{
+    public virtual void Update()
+    {
 
         if (SpeedProvider != null)
-						speed = SpeedProvider.Speed;
-				else
-						speed = DefaultSpeedProvider.Speed;
-		float distance = StarSpeed * Time.deltaTime * speed;
-		FlyingDistance -= Mathf.Abs(distance);
+            speed = SpeedProvider.Speed;
+        else
+            speed = DefaultSpeedProvider.Speed;
+        float distance = StarSpeed * Time.deltaTime * speed;
+        FlyingDistance -= Mathf.Abs(distance);
 
-		Vector3 position = transform.position;
-		position.x -= distance;
-		transform.position = position;
+        Vector3 position = transform.position;
+        position.x -= distance;
+        transform.position = position;
 
-		if (FlyingDistance < 0f)
-		{
-			Object.Destroy(gameObject);
-		}
-	}
+        if (FlyingDistance < 0f)
+        {
+            Object.Destroy(gameObject);
+        }
+    }
 }
