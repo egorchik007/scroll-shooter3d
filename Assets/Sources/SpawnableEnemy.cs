@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assets.Sources
+
+public class SpawnableEnemy : MonoBehaviour
 {
-    abstract class SpawnableEnemy: MonoBehaviour
-    {
-        public int level;
-        public int money;
-    }
+    public int level;
+    public int money;
 }
+
