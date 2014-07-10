@@ -54,13 +54,15 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
             Velocity.x = Mathf.Clamp(Velocity.x - 1f * Time.deltaTime, SpeedXLimits.x, SpeedXLimits.y);
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             gun[0].Shoot(this);
+			audio.Play();
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             gun[1].Shoot(this);
+				audio.Play();
         }
         #endregion
 
