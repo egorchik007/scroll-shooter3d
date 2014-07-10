@@ -56,13 +56,11 @@ public class SpaceShip : MonoBehaviour, ISpeedProvider
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            gun[0].Shoot(this);
-			audio.Play();
+            gun[0].Shoot(this);		
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
             gun[1].Shoot(this);
-				audio.Play();
         }
         #endregion
 
