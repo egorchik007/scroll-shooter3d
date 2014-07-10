@@ -7,21 +7,28 @@ public class Asteroid : MonoBehaviour
     public float Speed = 5.0f;
     public SpaceShip Ship;
     public float CollisionRadius = 0.65f;
+    public ScreenBoundary Boundary;
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = Target.position - this.transform.position;
-        Vector3 velocity = direction.normalized * Speed * Time.deltaTime * Ship.Speed;
+        if (transform.position.x < Boundary.Boundary.min.x)
+        {
+            Object.Destroy(gameObject);
+        }
 
-        if (velocity.sqrMagnitude < direction.sqrMagnitude)
+        Vector3 direction = (Target.position - this.transform.position).normalized;
+        Vector3 velocity = new Vector3(-Speed * Time.fixedDeltaTime * Ship.Speed, direction.y * Speed * Time.fixedDeltaTime);
+
+        /*if (velocity.sqrMagnitude < direction.sqrMagnitude)
         {
             this.transform.position += velocity;
         }
         else
         {
             this.transform.position = Target.position;
-        }
+        }*/
+        transform.position += velocity;
 
         if (direction.magnitude < 1.0f)
         {

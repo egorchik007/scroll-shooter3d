@@ -74,6 +74,7 @@ MonoBehaviour:
   Speed: 5
   Ship: {fileID: 0}
   CollisionRadius: .699999988
+  Boundary: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
