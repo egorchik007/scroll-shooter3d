@@ -7,6 +7,7 @@ public class AsteroidSpawner : MonoBehaviour
     public float AppearingFrequency = 1.0f;
     public Vector2 VerticalRange = new Vector2(-5, 7);
     public float FlyingDistance = 10f;
+    public ScreenBoundary Boundary;
 
     public SpaceShip SpaceShip;
 
@@ -38,5 +39,8 @@ public class AsteroidSpawner : MonoBehaviour
         float randomY = Random.Range(VerticalRange.x, VerticalRange.y);
 
         newAsteroid.transform.position = new Vector3(transform.position.x, randomY, transform.position.z);
+        asteroid.Boundary = Boundary;
+        asteroid.Target = SpaceShip.transform;
+        asteroid.Ship = SpaceShip;
     }
 }

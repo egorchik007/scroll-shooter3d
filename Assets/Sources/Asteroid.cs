@@ -20,17 +20,12 @@ public class Asteroid : MonoBehaviour
         Vector3 direction = (Target.position - this.transform.position).normalized;
         Vector3 velocity = new Vector3(-Speed * Time.fixedDeltaTime * Ship.Speed, direction.y * Speed * Time.fixedDeltaTime);
 
-        /*if (velocity.sqrMagnitude < direction.sqrMagnitude)
-        {
-            this.transform.position += velocity;
-        }
+        if ((Target.position - this.transform.position).magnitude > 3.0f)
+            transform.position += velocity;
         else
-        {
-            this.transform.position = Target.position;
-        }*/
-        transform.position += velocity;
+            transform.position += Vector3.left / 8;
 
-        if (direction.magnitude < 1.0f)
+        if ((Target.position - this.transform.position).magnitude < 1.0f)
         {
             Application.LoadLevel(Application.loadedLevel);
         }

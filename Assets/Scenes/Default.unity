@@ -1242,6 +1242,7 @@ MonoBehaviour:
   Bullet: {fileID: 100000, guid: 7a8b1bb5a5c1448fcbf219e0a74a9bac, type: 2}
   BulletSpeed: 10.5
   ShotsPerSecond: 5
+  shotCost: 0
 --- !u!114 &112499087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,6 +1257,7 @@ MonoBehaviour:
   Bullet: {fileID: 100000, guid: f835554b905e44a94958fbf58552b6a5, type: 2}
   BulletSpeed: 1
   ShotsPerSecond: 1
+  shotCost: 50
 --- !u!82 &112499088
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12965,6 +12967,7 @@ MonoBehaviour:
   AppearingFrequency: 1
   VerticalRange: {x: -5, y: 7}
   FlyingDistance: 10
+  Boundary: {fileID: 1189876355}
   SpaceShip: {fileID: 112499084}
 --- !u!4 &1273939557
 Transform:

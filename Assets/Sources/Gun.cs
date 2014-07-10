@@ -23,6 +23,7 @@ public class Gun : MonoBehaviour
     public GameObject Bullet;
     public float BulletSpeed = 10.1f;
     public float ShotsPerSecond = 1f;
+    public int shotCost;
 
     private float cooldown = 0f;
 
@@ -37,11 +38,13 @@ public class Gun : MonoBehaviour
     public void Shoot(ISpeedProvider worldSpeedProvider)
     {
         
-        if (cooldown > 0f)
+        if (cooldown > 0f || GameController.Instance.Score < shotCost)
         {
             return;
         }
         audio.Play();
+        GameController.Instance.Score -= shotCost;
+
         GameObject newBulletObj = (GameObject)Instantiate(Bullet, transform.position, Quaternion.Euler(0, 0, -90));
         Star newBullet = newBulletObj.GetComponent<Star>();
         newBullet.SpeedProvider = new BulletSpeedProvider(worldSpeedProvider, worldSpeedProvider.Speed + BulletSpeed + 0.5f);
