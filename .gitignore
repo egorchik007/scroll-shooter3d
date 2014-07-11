@@ -47,7 +47,6 @@ test-results
 *.sdf
 *.opensdf
 ipch/
-obj/
 [Bb]in
 Ankh.NoLoad
 *.vcxproj
