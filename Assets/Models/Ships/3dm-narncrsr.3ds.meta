@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: cd7b4a11112c6594788b3b7f72ea63df
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 'BACK FINS '
+    100004: 'BLACK     '
+    100006: 'BRIDGE    '
+    100008: BRIDGE DET
+    100010: BRIDGE INT
+    100012: BRIDGE MET
+    100014: BRIDGE WIN
+    100016: Camera01
+    100018: Camera01.t.target
+    100020: ENGINE DE2
+    100022: ENGINE DE3
+    100024: ENGINE DE4
+    100026: ENGINE DE5
+    100028: ENGINE DET
+    100030: ENGINE FIN
+    100032: ENGINE FRA
+    100034: ENGINE LEF
+    100036: ENGINE MID
+    100038: ENGINE RIG
+    100040: ENGINE TUB
+    100042: FrntGunPip
+    100044: FRONT DET0
+    100046: FRONT DET1
+    100048: FRONT DETA
+    100050: FRONT PIPE
+    100052: 'GUN METAL '
+    100054: 'GUN RED   '
+    100056: 'HANGAR    '
+    100058: HANGAR SUP
+    100060: 'HULL      '
+    100062: HULL AFT I
+    100064: HULL FORWA
+    100066: HULL INTER
+    100068: HULL METAL
+    100070: HULL WINDO
+    100072: POD ANTENA
+    100074: REACTOR CO
+    400000: //RootNode
+    400002: 'BACK FINS '
+    400004: 'BLACK     '
+    400006: 'BRIDGE    '
+    400008: BRIDGE DET
+    400010: BRIDGE INT
+    400012: BRIDGE MET
+    400014: BRIDGE WIN
+    400016: Camera01
+    400018: Camera01.t.target
+    400020: ENGINE DE2
+    400022: ENGINE DE3
+    400024: ENGINE DE4
+    400026: ENGINE DE5
+    400028: ENGINE DET
+    400030: ENGINE FIN
+    400032: ENGINE FRA
+    400034: ENGINE LEF
+    400036: ENGINE MID
+    400038: ENGINE RIG
+    400040: ENGINE TUB
+    400042: FrntGunPip
+    400044: FRONT DET0
+    400046: FRONT DET1
+    400048: FRONT DETA
+    400050: FRONT PIPE
+    400052: 'GUN METAL '
+    400054: 'GUN RED   '
+    400056: 'HANGAR    '
+    400058: HANGAR SUP
+    400060: 'HULL      '
+    400062: HULL AFT I
+    400064: HULL FORWA
+    400066: HULL INTER
+    400068: HULL METAL
+    400070: HULL WINDO
+    400072: POD ANTENA
+    400074: REACTOR CO
+    2300000: 'BACK FINS '
+    2300002: 'BLACK     '
+    2300004: 'BRIDGE    '
+    2300006: BRIDGE DET
+    2300008: BRIDGE INT
+    2300010: BRIDGE MET
+    2300012: BRIDGE WIN
+    2300014: ENGINE DE2
+    2300016: ENGINE DE3
+    2300018: ENGINE DE4
+    2300020: ENGINE DE5
+    2300022: ENGINE DET
+    2300024: ENGINE FIN
+    2300026: ENGINE FRA
+    2300028: ENGINE LEF
+    2300030: ENGINE MID
+    2300032: ENGINE RIG
+    2300034: ENGINE TUB
+    2300036: FrntGunPip
+    2300038: FRONT DET0
+    2300040: FRONT DET1
+    2300042: FRONT DETA
+    2300044: FRONT PIPE
+    2300046: 'GUN METAL '
+    2300048: 'GUN RED   '
+    2300050: 'HANGAR    '
+    2300052: HANGAR SUP
+    2300054: 'HULL      '
+    2300056: HULL AFT I
+    2300058: HULL FORWA
+    2300060: HULL INTER
+    2300062: HULL METAL
+    2300064: HULL WINDO
+    2300066: POD ANTENA
+    2300068: REACTOR CO
+    3300000: 'BACK FINS '
+    3300002: 'BLACK     '
+    3300004: 'BRIDGE    '
+    3300006: BRIDGE DET
+    3300008: BRIDGE INT
+    3300010: BRIDGE MET
+    3300012: BRIDGE WIN
+    3300014: ENGINE DE2
+    3300016: ENGINE DE3
+    3300018: ENGINE DE4
+    3300020: ENGINE DE5
+    3300022: ENGINE DET
+    3300024: ENGINE FIN
+    3300026: ENGINE FRA
+    3300028: ENGINE LEF
+    3300030: ENGINE MID
+    3300032: ENGINE RIG
+    3300034: ENGINE TUB
+    3300036: FrntGunPip
+    3300038: FRONT DET0
+    3300040: FRONT DET1
+    3300042: FRONT DETA
+    3300044: FRONT PIPE
+    3300046: 'GUN METAL '
+    3300048: 'GUN RED   '
+    3300050: 'HANGAR    '
+    3300052: HANGAR SUP
+    3300054: 'HULL      '
+    3300056: HULL AFT I
+    3300058: HULL FORWA
+    3300060: HULL INTER
+    3300062: HULL METAL
+    3300064: HULL WINDO
+    3300066: POD ANTENA
+    3300068: REACTOR CO
+    4300000: 'BACK FINS '
+    4300002: 'BLACK     '
+    4300004: 'BRIDGE    '
+    4300006: BRIDGE DET
+    4300008: BRIDGE INT
+    4300010: BRIDGE MET
+    4300012: BRIDGE WIN
+    4300014: ENGINE FIN
+    4300016: ENGINE FRA
+    4300018: ENGINE LEF
+    4300020: ENGINE MID
+    4300022: ENGINE RIG
+    4300024: ENGINE TUB
+    4300026: FRONT DETA
+    4300028: FRONT PIPE
+    4300030: 'GUN METAL '
+    4300032: 'GUN RED   '
+    4300034: 'HANGAR    '
+    4300036: HANGAR SUP
+    4300038: 'HULL      '
+    4300040: HULL AFT I
+    4300042: HULL FORWA
+    4300044: HULL INTER
+    4300046: HULL METAL
+    4300048: HULL WINDO
+    4300050: POD ANTENA
+    4300052: REACTOR CO
+    4300054: ENGINE DET
+    4300056: FrntGunPip
+    4300058: ENGINE DE2
+    4300060: ENGINE DE3
+    4300062: ENGINE DE4
+    4300064: ENGINE DE5
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
