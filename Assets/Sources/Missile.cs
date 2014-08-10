@@ -13,6 +13,8 @@ public class Missile : Star
     GameObject currentenemy;
     GameObject lastenemy;
 
+	Vector3 lastpos;
+
     public void Start()
     {
     }
@@ -47,19 +49,33 @@ public class Missile : Star
             }
 
             #endregion
-            if (enemy != null && enemy.GetComponent<Asteroid>() != null)
+			if (enemy != null && enemy.GetComponent<Asteroid>() != null)
+			{
 
-                if (Vector3.SqrMagnitude(transform.position - enemy.transform.position) < enemy.GetComponent<Asteroid>().CollisionRadius)
-                {
-                    enemies.Remove(enemy);
-                    Object.Destroy(enemy);
-                    Object.Destroy(this.gameObject);
+				// check collision in case bullet went too fast through an asteroid
 
-                    Transform ex = (Transform)Instantiate(explosion, enemy.transform.position, Quaternion.identity);
-                    GameController.Instance.Score += 10;
-                    currentenemy = null;
-                    break;
-                }
-        }
+				bool advCollision = false;
+				if (Vector3.SqrMagnitude(transform.position - enemy.transform.position) > enemy.GetComponent<Asteroid>().CollisionRadius 
+					&& transform.position.x > enemy.transform.position.x
+					&& lastpos.x < enemy.transform.position.x
+					&& Vector3.SqrMagnitude(transform.position - (transform.position - lastpos) / 2f - enemy.transform.position) < enemy.GetComponent<Asteroid>().CollisionRadius)
+				{
+					advCollision = true;
+				}
+
+				if (Vector3.SqrMagnitude(transform.position - enemy.transform.position) < enemy.GetComponent<Asteroid>().CollisionRadius || advCollision)
+				{
+					enemies.Remove(enemy);
+					Object.Destroy(enemy);
+					Object.Destroy(this.gameObject);
+					Transform ex = (Transform)Instantiate(explosion, enemy.transform.position, Quaternion.identity);
+					GameController.Instance.Score += 10;
+					currentenemy = null;
+					advCollision = false;
+					break;
+				}
+			}
+		}
+		lastpos = transform.position;
     }
 }
